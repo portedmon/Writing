@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T12:03:45.899816+00:00",
-  "totalDays": 2,
+  "lastUpdated": "2026-10-31T12:06:44.634917+00:00",
+  "totalDays": 3,
   "days": [
     {
       "day": 1,
@@ -136,6 +136,172 @@
             "because",
             "bad"
           ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-10-31",
+      "tasks": [
+        {
+          "id": "day2-task1",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry",
+          "commandTerm": "Evaluate",
+          "commandTermDefinition": "Make an appraisal by weighing up the strengths and limitations.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluation of Industrial Desalination Methodologies",
+          "prompt": "Evaluate the viability and environmental sustainability of Reverse Osmosis compared to Thermal Distillation for large-scale municipal water production based on the provided empirical dataset.",
+          "stimulus": {
+            "title": "Comparative Operational & Ecological Metrics of Desalination Technologies",
+            "headers": [
+              "Parameter",
+              "Reverse Osmosis (RO)",
+              "Thermal Distillation (MSF)",
+              "Ecological Benchmark Threshold"
+            ],
+            "rows": [
+              [
+                "Energy Consumption (kWh/m³)",
+                "3.5 - 4.5",
+                "10.0 - 15.0",
+                "< 5.0"
+              ],
+              [
+                "Carbon Intensity (kg CO₂/m³)",
+                "1.8",
+                "6.2",
+                "< 2.0"
+              ],
+              [
+                "Brine Discharge Salinity (ppt)",
+                "70.0",
+                "50.0",
+                "< 60.0"
+              ]
+            ],
+            "notes": "Brine salinity levels exceeding 60.0 ppt induce localized marine benthic hypoxia; energy inputs above 5.0 kWh/m³ exceed grid capability parameters."
+          },
+          "requiredVocab": [
+            "A comparative analysis demonstrates that...",
+            "This efficiency advantage is offset by...",
+            "Consequently, long-term viability requires..."
+          ],
+          "structureRule": "Construct a 3-part evaluation framework: State operational strengths using energy/carbon metrics -> Analyze environmental limitations using brine salinity thresholds -> Deliver a balanced final synthesis.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ],
+          "scaffolding": {
+            "recommendedStructure": [
+              "1. Operational Strength Appraisal (Energy & Carbon)",
+              "2. Environmental Limitation Analysis (Brine Salinity)",
+              "3. Evaluative Synthesis & Final Judgment"
+            ],
+            "sentenceStarters": [
+              "Quantitative evaluation demonstrates that Reverse Osmosis offers superior energy performance...",
+              "However, this technical efficiency is countered by the environmental impact of..."
+            ],
+            "targetAcademicVocabulary": [
+              "thermodynamic efficiency",
+              "benthic hypoxia",
+              "carbon footprint baseline"
+            ],
+            "wordsToAvoid": [
+              "I think",
+              "good/bad",
+              "so",
+              "because"
+            ],
+            "rubricChecklist": [
+              "Appraised both operational advantages and ecological drawbacks using concrete metrics.",
+              "Referenced the ecological benchmark thresholds directly.",
+              "Maintained an objective, third-person analytical tone without banned informal terms."
+            ]
+          }
+        },
+        {
+          "id": "day2-task2",
+          "subject": "Design",
+          "subCategory": "Sustainable Materials Engineering",
+          "commandTerm": "Explain",
+          "commandTermDefinition": "Give a detailed account including reasons or causes.",
+          "targetWordCount": "120-150 words",
+          "title": "Explanation of Structural Failure in Bio-Polymer Packaging",
+          "prompt": "Explain the causal mechanism by which ambient atmospheric moisture induces structural failure in Polylactic Acid (PLA) packaging during transit.",
+          "stimulus": {
+            "title": "Degradation Metrics of Polylactic Acid (PLA) Packaging Under Moisture Exposure",
+            "headers": [
+              "Relative Humidity (%)",
+              "Tensile Strength (MPa)",
+              "Mass Gain via Moisture (%)",
+              "Time to Failure (Days)"
+            ],
+            "rows": [
+              [
+                "30%",
+                "65.2",
+                "0.4",
+                "> 180"
+              ],
+              [
+                "60%",
+                "48.0",
+                "1.9",
+                "45"
+              ],
+              [
+                "90%",
+                "18.5",
+                "5.8",
+                "12"
+              ]
+            ],
+            "notes": "Tensile strength under 30.0 MPa results in immediate structural collapse under standard vertical stacking loads."
+          },
+          "requiredVocab": [
+            "The primary driver of degradation involves...",
+            "This structural decline stems from...",
+            "As a direct consequence of ester bond hydrolysis..."
+          ],
+          "structureRule": "Construct a step-by-step causal chain: Environmental cause (humidity uptake) -> Molecular mechanism (hydrolysis/tensile reduction) -> Physical manifestation (stacking failure).",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ],
+          "scaffolding": {
+            "recommendedStructure": [
+              "1. Environmental Trigger Identification",
+              "2. Degradation Mechanism Explanation",
+              "3. Mechanical Load Failure Outcome"
+            ],
+            "sentenceStarters": [
+              "Exposure to high relative humidity initiates rapid polymer degradation...",
+              "An increase in ambient moisture from 30% to 90% results in..."
+            ],
+            "targetAcademicVocabulary": [
+              "hydrolytic cleavage",
+              "tensile strength degradation",
+              "hygroscopic absorption"
+            ],
+            "wordsToAvoid": [
+              "and then",
+              "so",
+              "because",
+              "like"
+            ],
+            "rubricChecklist": [
+              "Detailed the complete cause-and-effect progression from moisture to structural collapse.",
+              "Incorporated exact numeric evidence from the data table.",
+              "Replaced casual conjunctions with high-register cause-and-effect transitions."
+            ]
+          }
         }
       ]
     },
