@@ -1,0 +1,115 @@
+{
+  "lastUpdated": "2026-10-31T12:00:00Z",
+  "totalDays": 1,
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-31",
+      "tasks": [
+        {
+          "id": "day1-task1",
+          "subject": "Humanities",
+          "subCategory": "Geography & Urban Economics",
+          "commandTerm": "Analyze",
+          "commandTermDefinition": "Break down in order to bring out the essential elements or structure. (Identify parts and relationships, interpret patterns, and extract meaningful conclusions).",
+          "targetTimeMinutes": 15,
+          "targetWordCount": "120-150 words",
+          "mypCriterion": "Criterion D: Critical Thinking",
+          "title": "Urban Transit Accessibility vs. Household Income",
+          "prompt": "Analyze the relationship between median household income, transit access frequency, and car ownership rates across the four city zones. In your analysis, identify key correlations, note any anomalies, and discuss the broader socio-economic implications.",
+          "stimulusType": "table",
+          "stimulus": {
+            "title": "Public Transit Frequency vs. Household Socio-Economic Indicators (Metro Region)",
+            "headers": ["Zone Classification", "Median Household Income", "Avg. Walk to Transit Hub", "Transit Departures / hr (Peak)", "Car Ownership Rate"],
+            "rows": [
+              ["Zone A (Urban Core)", "$78,500", "4 minutes", "24 departures", "38%"],
+              ["Zone B (Inner Ring)", "$61,200", "7 minutes", "14 departures", "64%"],
+              ["Zone C (Outer Ring)", "$39,400", "18 minutes", "3 departures", "81%"],
+              ["Zone D (Suburban East)", "$96,000", "22 minutes", "2 departures", "95%"]
+            ],
+            "notes": "Context: Zone C accommodates 46% of the city's essential shift-workers who commute into the Urban Core daily."
+          },
+          "scaffolding": {
+            "recommendedStructure": [
+              "1. Identification of the primary correlation (transit frequency vs. income / car dependency)",
+              "2. Contrast and anomaly analysis (examine Zone C vs. Zone D: forced vs. voluntary car ownership)",
+              "3. Analytical conclusion on structural inequality and economic mobility"
+            ],
+            "sentenceStarters": [
+              "The data demonstrates a distinct correlation between...",
+              "A significant divergence is evident when contrasting Zone C and Zone D, as...",
+              "This disparity suggests that for lower-income households, car ownership is not an asset but a...",
+              "Consequently, the inadequate transit provision in Zone C exacerbates..."
+            ],
+            "targetAcademicVocabulary": [
+              "correlation", "disparity", "attributable to", "divergence", "disproportionately", "structural barrier", "infrastructure deficiency"
+            ],
+            "wordsToAvoid": [
+              "I think / In my opinion (Use: 'The data indicates' or 'It is apparent that')",
+              "bad or poor (Use: 'deficient', 'suboptimal', 'insufficient')",
+              "so (Use: 'consequently', 'thereby', 'hence')"
+            ],
+            "rubricChecklist": [
+              "Synthesized multiple data columns rather than reciting raw numbers isolated from context",
+              "Distinguished between correlation and underlying socio-economic causation",
+              "Critically evaluated the disparity between Zone C and Zone D",
+              "Maintained objective, evidence-based academic register throughout"
+            ]
+          }
+        },
+        {
+          "id": "day1-task2",
+          "subject": "Sciences",
+          "subCategory": "Environmental Science & Chemistry",
+          "commandTerm": "Justify",
+          "commandTermDefinition": "Give valid reasons or evidence to support an answer or conclusion.",
+          "targetTimeMinutes": 15,
+          "targetWordCount": "120-150 words",
+          "mypCriterion": "Criterion C: Processing and Evaluating / Criterion D: Reflecting on Science Impacts",
+          "title": "Selection of Groundwater Nitrate Remediation Technology",
+          "prompt": "Justify the selection of Method B (Subsurface Permeable Bio-Barriers) over Method A and Method C as the optimal municipal intervention for agricultural runoff contamination, taking into account efficacy, environmental footprint, and municipal constraints.",
+          "stimulusType": "table",
+          "stimulus": {
+            "title": "Performance and Resource Trial Data: Nitrate Remediation Technologies",
+            "headers": ["Evaluation Parameter", "Method A (Chemical Precipitation)", "Method B (Subsurface Bio-Barriers)", "Method C (Constructed Wetlands)"],
+            "rows": [
+              ["Nitrate Removal Efficiency", "94%", "89%", "76%"],
+              ["Annual Operating Cost", "$165,000 / yr", "$38,000 / yr", "$52,000 / yr"],
+              ["Land Footprint Required", "< 0.2 hectares", "< 0.5 hectares (underground)", "14.5 hectares"],
+              ["Secondary Environmental Risk", "Chemical sludge disposal required", "Zero hazardous byproduct", "Mosquito vector breeding"],
+              ["Long-term Maintenance", "High (daily chemical dosing)", "Low (self-sustaining >6 yrs)", "Moderate (vegetation harvesting)"]
+            ],
+            "notes": "Constraints: Municipal annual budget cap is $60,000. Land available adjacent to watershed is restricted to 2.0 hectares."
+          },
+          "scaffolding": {
+            "recommendedStructure": [
+              "1. Direct stance & thesis: explicit selection of Method B framed by feasibility parameters",
+              "2. Multi-criteria justification: balance of high efficiency (89%) with budgetary compliance ($38k vs $60k cap)",
+              "3. Systematic refutation: demonstrate why Method A (budgetary overage) and Method C (spatial overage) fail"
+            ],
+            "sentenceStarters": [
+              "Method B is conclusively the most viable remediation strategy because...",
+              "Although Method A achieves a marginally superior removal efficiency of 94%, it is rendered unfeasible by...",
+              "Furthermore, Method C violates the spatial constraint of 2.0 hectares, requiring...",
+              "By eliminating secondary hazardous byproducts while operating well below the $60,000 threshold, Method B balances..."
+            ],
+            "targetAcademicVocabulary": [
+              "viable", "unfeasible", "spatial constraint", "budgetary threshold", "byproduct", "remediation", "trade-off"
+            ],
+            "wordsToAvoid": [
+              "I like Method B because...",
+              "It is the best (Replace with: 'presents the optimal balance of efficiency and feasibility')",
+              "cheap (Replace with: 'cost-effective' or 'economically viable')"
+            ],
+            "rubricChecklist": [
+              "Explicitly stated choice in the initial sentence without ambiguity",
+              "Directly referenced and compared quantitative metrics across all three methods",
+              "Addressed external constraints (budget cap & land availability) as core justification",
+              "Refuted competing alternatives using concrete scientific/operational reasoning"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
