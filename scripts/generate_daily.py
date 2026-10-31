@@ -60,7 +60,12 @@ Generate exactly TWO high-density academic writing drills for Day {day_num} ({da
 TARGET STUDENT CONTEXT:
 The student transitioned from Japanese/Opinion writing into IB MYP 5.
 They need rigorous, evidence-based drills to paste into their notebook.
-Each drill must focus on objective data analysis and command terms, completely avoiding casual or subjective English.
+They must master synthesizing DIFFERENT TYPES OF INFORMATION beyond just tables:
+- Historical primary sources & archival excerpts (Humanities)
+- Quantitative comparison matrices & tables (Sciences / Economics)
+- Real-world case study dilemmas & policy incidents (Humanities / Personal Project)
+- Design briefs, user personas & ergonomic constraints (Design / Personal Project)
+- Experimental logs, scientific protocols & anomaly observations (Sciences)
 
 Return a JSON object matching this schema:
 {{
@@ -77,29 +82,21 @@ Return a JSON object matching this schema:
       "title": "string (academic drill title)",
       "prompt": "string (rigorous task prompt starting with '{cmd1}')",
       "stimulus": {{
-        "title": "string (concrete comparison table title)",
-        "headers": ["Column 1", "Column 2", "Column 3", "Column 4"],
-        "rows": [
-          ["Row1 A", "Row1 B", "Row1 C", "Row1 D"],
-          ["Row2 A", "Row2 B", "Row2 C", "Row2 D"],
-          ["Row3 A", "Row3 B", "Row3 C", "Row3 D"]
-        ],
-        "notes": "string (context, constraints, or benchmarks)"
+        "type": "table | primary_source | case_study | design_brief | experiment_log",
+        "title": "string (descriptive stimulus title / source attribution)",
+        "content": "string (optional: 2-4 sentence dense excerpt, quote, scenario narrative or protocol)",
+        "headers": ["Col 1", "Col 2", "Col 3"] (optional: used when type is 'table'),
+        "rows": [["A", "B", "C"], ["D", "E", "F"]] (optional: used when type is 'table'),
+        "keyPoints": ["Bullet 1", "Bullet 2", "Bullet 3"] (optional: key empirical observations, specs, or quotes),
+        "notes": "string (essential constraints, regulatory thresholds, or context)"
       }},
       "requiredVocab": [
         "High-register academic phrase 1 (e.g. It is crucial to recognize that...)",
         "High-register academic phrase 2 (e.g. This is underpinned by the fact that...)",
         "High-register academic phrase 3 (e.g. Consequently, it becomes clear that...)"
       ],
-      "structureRule": "string (explicit step-by-step logic rule avoiding 'I think'. E.g. Construct a 3-step validation framework: State claim -> provide data metrics -> explain mechanism.)",
-      "bannedWords": ["I think", "In my opinion", "because", "bad", "good", "so"],
-      "scaffolding": {{
-        "recommendedStructure": ["1. Stance/Correlation", "2. Data synthesis", "3. Consequence/Conclusion"],
-        "sentenceStarters": ["starter 1", "starter 2"],
-        "targetAcademicVocabulary": ["term 1", "term 2", "term 3"],
-        "wordsToAvoid": ["I think", "good/bad"],
-        "rubricChecklist": ["Checklist 1", "Checklist 2"]
-      }}
+      "structureRule": "string (explicit step-by-step logic rule avoiding 'I think'. E.g. Construct a 3-step validation framework: State claim -> synthesize stimulus evidence -> deduce systemic mechanism.)",
+      "bannedWords": ["I think", "In my opinion", "because", "bad", "good", "so"]
     }},
     {{
       "id": "day{day_num}-task2",
@@ -111,30 +108,24 @@ Return a JSON object matching this schema:
       "title": "string",
       "prompt": "string (starting with '{cmd2}')",
       "stimulus": {{
+        "type": "table | primary_source | case_study | design_brief | experiment_log",
         "title": "string",
-        "headers": ["Col 1", "Col 2", "Col 3", "Col 4"],
-        "rows": [
-          ["...", "...", "...", "..."],
-          ["...", "...", "...", "..."],
-          ["...", "...", "...", "..."]
-        ],
+        "content": "string (if text-based stimulus)",
+        "headers": ["..."] (if table),
+        "rows": [["..."]] (if table),
+        "keyPoints": ["..."],
         "notes": "string"
       }},
       "requiredVocab": ["Phrase 1...", "Phrase 2...", "Phrase 3..."],
       "structureRule": "string",
-      "bannedWords": ["and then", "so", "because", "like"],
-      "scaffolding": {{
-        "recommendedStructure": ["..."],
-        "sentenceStarters": ["..."],
-        "targetAcademicVocabulary": ["..."],
-        "wordsToAvoid": ["..."],
-        "rubricChecklist": ["..."]
-      }}
+      "bannedWords": ["and then", "so", "because", "like"]
     }}
   ]
 }}
 
-CRITICAL: Return valid JSON ONLY. Keep descriptions concise, factual, and academically rigorous.
+CRITICAL GUIDELINES:
+1. Make sure at least one of the two tasks uses a non-table stimulus (e.g., Primary Source excerpt, Case Study scenario, Design Brief specifications, or Experimental Protocol log) when suitable for the subject.
+2. Return valid JSON ONLY. Keep descriptions concise, factual, and academically rigorous.
 """
 
 def call_gemini_api(prompt_text, api_key, max_retries=3):

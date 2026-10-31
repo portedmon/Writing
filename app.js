@@ -165,24 +165,60 @@ function renderDrillHtml(task, dayNum, taskNum) {
   const cmd = escapeHtml(task.commandTerm || 'ANALYZE').toUpperCase();
   const subjectText = escapeHtml(task.subject) + (task.subCategory ? ` / ${escapeHtml(task.subCategory)}` : '') + ' focus';
 
-  // Stimulus Table (if present)
+  // Stimulus (Table, Primary Source, Case Study, Design Brief, Experiment Log)
   let stimulusHtml = '';
-  if (task.stimulus && task.stimulus.headers && task.stimulus.rows) {
-    const headers = task.stimulus.headers.map(h => `<th>${escapeHtml(h)}</th>`).join('');
-    const rows = task.stimulus.rows.map(r => `
-      <tr>${r.map(c => `<td>${escapeHtml(c)}</td>`).join('')}</tr>
-    `).join('');
+  if (task.stimulus) {
+    const stim = task.stimulus;
+    const stimTitle = escapeHtml(stim.title || 'Stimulus Source');
+    let innerContent = '';
 
-    stimulusHtml = `
-      <div class="drill-row row-stimulus">
-        <div class="stimulus-caption">Data Source: ${escapeHtml(task.stimulus.title || 'Trial Data')}</div>
+    // If it has table headers and rows
+    if (stim.headers && stim.rows && stim.rows.length > 0) {
+      const headers = stim.headers.map(h => `<th>${escapeHtml(h)}</th>`).join('');
+      const rows = stim.rows.map(r => `
+        <tr>${r.map(c => `<td>${escapeHtml(c)}</td>`).join('')}</tr>
+      `).join('');
+
+      innerContent += `
         <div class="table-wrapper">
           <table class="dense-table">
             <thead><tr>${headers}</tr></thead>
             <tbody>${rows}</tbody>
           </table>
         </div>
-        ${task.stimulus.notes ? `<div class="stimulus-note">Context/Constraints: ${escapeHtml(task.stimulus.notes)}</div>` : ''}
+      `;
+    }
+
+    // If it has narrative/excerpt content
+    if (stim.content) {
+      innerContent += `
+        <div class="stimulus-text-content">
+          "${escapeHtml(stim.content)}"
+        </div>
+      `;
+    }
+
+    // If it has key points or specifications
+    if (stim.keyPoints && Array.isArray(stim.keyPoints) && stim.keyPoints.length > 0) {
+      const points = stim.keyPoints.map(p => `<li>• ${escapeHtml(p)}</li>`).join('');
+      innerContent += `
+        <ul class="stimulus-points-list">
+          ${points}
+        </ul>
+      `;
+    }
+
+    // Constraints or notes
+    let notesHtml = '';
+    if (stim.notes) {
+      notesHtml = `<div class="stimulus-note">📌 Context/Constraints: ${escapeHtml(stim.notes)}</div>`;
+    }
+
+    stimulusHtml = `
+      <div class="drill-row row-stimulus">
+        <div class="stimulus-caption">Stimulus: ${stimTitle}</div>
+        ${innerContent}
+        ${notesHtml}
       </div>
     `;
   }

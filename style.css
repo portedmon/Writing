@@ -319,6 +319,30 @@ body.dark-theme .drill-heading {
   border-right: none;
 }
 
+/* Text-based Stimulus & Points */
+.stimulus-text-content {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-main);
+  background: var(--bg-card);
+  border-left: 3px solid var(--accent-color);
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.35rem;
+  font-style: italic;
+}
+
+.stimulus-points-list {
+  list-style: none;
+  font-size: 0.85rem;
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.35rem;
+  padding-left: 0.25rem;
+}
+
 .stimulus-note {
   font-size: 0.75rem;
   color: var(--text-muted);
@@ -621,6 +645,24 @@ body.dark-theme .banned-text {
   .dense-table th:last-child,
   .dense-table td:last-child {
     border-right: none !important;
+  }
+
+  .stimulus-text-content {
+    font-size: 8pt !important;
+    font-family: Georgia, serif !important;
+    font-style: italic !important;
+    border-left: 2pt solid #000000 !important;
+    padding: 2pt 5pt !important;
+    margin-bottom: 2pt !important;
+    line-height: 1.3 !important;
+  }
+
+  .stimulus-points-list {
+    list-style: none !important;
+    font-size: 7.5pt !important;
+    line-height: 1.3 !important;
+    margin-bottom: 2pt !important;
+    padding-left: 3pt !important;
   }
 
   .stimulus-note {
