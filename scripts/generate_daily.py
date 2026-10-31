@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Daily IB MYP Writing Prompt Generator
-Generates 2 new daily prompts using Gemini API (gemini-3.8-flash).
+Generates 2 new daily prompts using Gemini API (gemini-3.6-flash).
 Appends to data/prompts.json and tracks progression from Day 1 onward.
 """
 
@@ -14,7 +14,7 @@ import time
 from datetime import datetime, timezone
 import argparse
 
-MODEL_NAME = "gemini-3.8-flash"
+MODEL_NAME = "gemini-3.6-flash"
 API_ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent"
 
 DATA_FILE_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "prompts.json")
