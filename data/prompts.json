@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T12:00:00Z",
-  "totalDays": 1,
+  "lastUpdated": "2026-10-31T12:03:45.899816+00:00",
+  "totalDays": 2,
   "days": [
     {
       "day": 1,
@@ -17,12 +17,42 @@
           "prompt": "Analyze the relationship between median household income, transit access frequency, and car ownership rates across the four city zones. In your analysis, identify key correlations, note anomalies, and discuss the broader socio-economic implications.",
           "stimulus": {
             "title": "Public Transit Frequency vs. Household Socio-Economic Indicators (Metro Region)",
-            "headers": ["Zone Classification", "Median Household Income", "Avg. Walk to Transit", "Transit Departures / hr", "Car Ownership Rate"],
+            "headers": [
+              "Zone Classification",
+              "Median Household Income",
+              "Avg. Walk to Transit",
+              "Transit Departures / hr",
+              "Car Ownership Rate"
+            ],
             "rows": [
-              ["Zone A (Urban Core)", "$78,500", "4 minutes", "24 departures", "38%"],
-              ["Zone B (Inner Ring)", "$61,200", "7 minutes", "14 departures", "64%"],
-              ["Zone C (Outer Ring)", "$39,400", "18 minutes", "3 departures", "81%"],
-              ["Zone D (Suburban East)", "$96,000", "22 minutes", "2 departures", "95%"]
+              [
+                "Zone A (Urban Core)",
+                "$78,500",
+                "4 minutes",
+                "24 departures",
+                "38%"
+              ],
+              [
+                "Zone B (Inner Ring)",
+                "$61,200",
+                "7 minutes",
+                "14 departures",
+                "64%"
+              ],
+              [
+                "Zone C (Outer Ring)",
+                "$39,400",
+                "18 minutes",
+                "3 departures",
+                "81%"
+              ],
+              [
+                "Zone D (Suburban East)",
+                "$96,000",
+                "22 minutes",
+                "2 departures",
+                "95%"
+              ]
             ],
             "notes": "Context: Zone C accommodates 46% of the city's essential shift-workers who commute into the Urban Core daily."
           },
@@ -32,7 +62,14 @@
             "Consequently, the inadequate transit provision in Zone C disproportionately exacerbates structural inequality..."
           ],
           "structureRule": "Avoid 'I think' or personal opinions. Construct a 3-step analytical framework: 1. Identify primary correlations across variables; 2. Contrast anomalies (Zone C forced car dependence vs. Zone D affluent suburban choice); 3. Deduce structural socio-economic implications.",
-          "bannedWords": ["I think", "In my opinion", "because", "bad", "poor", "so"]
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "poor",
+            "so"
+          ]
         },
         {
           "id": "day1-task2",
@@ -45,13 +82,43 @@
           "prompt": "Justify the selection of Method B (Subsurface Permeable Bio-Barriers) over Method A and Method C as the optimal municipal intervention for agricultural runoff contamination, taking into account efficacy, environmental footprint, and municipal constraints.",
           "stimulus": {
             "title": "Performance and Resource Trial Data: Nitrate Remediation Technologies",
-            "headers": ["Evaluation Parameter", "Method A (Chemical)", "Method B (Bio-Barriers)", "Method C (Wetlands)"],
+            "headers": [
+              "Evaluation Parameter",
+              "Method A (Chemical)",
+              "Method B (Bio-Barriers)",
+              "Method C (Wetlands)"
+            ],
             "rows": [
-              ["Nitrate Removal Efficiency", "94%", "89%", "76%"],
-              ["Annual Operating Cost", "$165,000 / yr", "$38,000 / yr", "$52,000 / yr"],
-              ["Land Footprint Required", "< 0.2 ha", "< 0.5 ha (subsurface)", "14.5 hectares"],
-              ["Secondary Risk", "Chemical sludge disposal", "Zero hazardous byproduct", "Mosquito vector breeding"],
-              ["Long-term Maintenance", "High (daily chemical dosing)", "Low (self-sustaining >6 yrs)", "Moderate (harvesting)"]
+              [
+                "Nitrate Removal Efficiency",
+                "94%",
+                "89%",
+                "76%"
+              ],
+              [
+                "Annual Operating Cost",
+                "$165,000 / yr",
+                "$38,000 / yr",
+                "$52,000 / yr"
+              ],
+              [
+                "Land Footprint Required",
+                "< 0.2 ha",
+                "< 0.5 ha (subsurface)",
+                "14.5 hectares"
+              ],
+              [
+                "Secondary Risk",
+                "Chemical sludge disposal",
+                "Zero hazardous byproduct",
+                "Mosquito vector breeding"
+              ],
+              [
+                "Long-term Maintenance",
+                "High (daily chemical dosing)",
+                "Low (self-sustaining >6 yrs)",
+                "Moderate (harvesting)"
+              ]
             ],
             "notes": "Constraints: Municipal annual budget cap is $60,000. Land available adjacent to watershed is restricted to 2.0 hectares."
           },
@@ -61,7 +128,186 @@
             "Furthermore, Method C violates the spatial constraint of 2.0 hectares, requiring..."
           ],
           "structureRule": "Avoid 'I think' or personal opinions. Construct a 3-step validation framework: State clear selection of Method B, provide quantitative trade-off metrics (efficiency vs. cost/land caps), and systematically refute Method A (cost overrun) and Method C (spatial violation).",
-          "bannedWords": ["I like", "I think", "best", "cheap", "because", "bad"]
+          "bannedWords": [
+            "I like",
+            "I think",
+            "best",
+            "cheap",
+            "because",
+            "bad"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-10-31",
+      "tasks": [
+        {
+          "id": "day3-task1",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design & Material Selection",
+          "commandTerm": "Discuss",
+          "commandTermDefinition": "Offer a considered and balanced review that includes a range of arguments, factors or hypotheses.",
+          "targetWordCount": "120-150 words",
+          "title": "Trade-off Evaluation of Sustainable Polymers for Structural Seating",
+          "prompt": "Discuss the trade-offs between Polylactic Acid (PLA) and Recycled High-Density Polyethylene (rHDPE) for structural office chair design using the provided tensile and life-cycle performance metrics.",
+          "stimulus": {
+            "title": "Material Performance & Lifecycle Sustainability Metrics",
+            "headers": [
+              "Material Type",
+              "Tensile Strength (MPa)",
+              "Carbon Footprint (kg CO2e/kg)",
+              "Unit Raw Cost (USD/kg)"
+            ],
+            "rows": [
+              [
+                "Polylactic Acid (PLA)",
+                "60",
+                "1.8",
+                "3.20"
+              ],
+              [
+                "Recycled HDPE (rHDPE)",
+                "30",
+                "0.6",
+                "1.90"
+              ],
+              [
+                "Virgin ABS (Baseline)",
+                "45",
+                "3.1",
+                "2.40"
+              ]
+            ],
+            "notes": "Structural load benchmarks require a minimum tensile strength of 35 MPa for load-bearing frames. Budget constraints dictate a maximum material expenditure of $2.50/kg."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This is underpinned by the fact that...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Construct a balanced review: State comparative mechanical and financial metrics -> evaluate performance against design constraints -> deliver a synthesized trade-off conclusion.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ],
+          "scaffolding": {
+            "recommendedStructure": [
+              "1. Analytical Stance / Data Overview",
+              "2. Comparative Evaluation of PLA vs. rHDPE",
+              "3. Synthesized Trade-off Conclusion"
+            ],
+            "sentenceStarters": [
+              "An analysis of the empirical metrics reveals...",
+              "While PLA surpasses structural strength thresholds,..."
+            ],
+            "targetAcademicVocabulary": [
+              "tensile yield strength",
+              "economic viability",
+              "carbon expenditure",
+              "structural integrity"
+            ],
+            "wordsToAvoid": [
+              "I think",
+              "In my opinion",
+              "good",
+              "bad",
+              "so"
+            ],
+            "rubricChecklist": [
+              "Evaluates both structural capacity and financial cost without subjective bias",
+              "Integrates precise metric values from the data table",
+              "Uses all three required high-register academic phrases"
+            ]
+          }
+        },
+        {
+          "id": "day3-task2",
+          "subject": "Humanities",
+          "subCategory": "Economic Geography & Urban Demographics",
+          "commandTerm": "Formulate",
+          "commandTermDefinition": "Express the relevant concept or argument systematically in a clear, precise manner.",
+          "targetWordCount": "120-150 words",
+          "title": "Formulation of Urban Regeneration Hypotheses based on Socioeconomic Metrics",
+          "prompt": "Formulate a systematic hypothesis explaining the relationship between commercial real estate yield and household retention in post-industrial urban districts based on the dataset.",
+          "stimulus": {
+            "title": "Post-Industrial Urban District Transformation Metrics (2015–2025)",
+            "headers": [
+              "District Zone",
+              "Median Rent Change (%)",
+              "Low-Income Retention (%)",
+              "Commercial Real Estate Yield (%)"
+            ],
+            "rows": [
+              [
+                "Zone A (Central Warehouse)",
+                "+142%",
+                "34%",
+                "12.4%"
+              ],
+              [
+                "Zone B (Waterfront Mill)",
+                "+88%",
+                "52%",
+                "8.7%"
+              ],
+              [
+                "Zone C (Periphery Rail)",
+                "+25%",
+                "81%",
+                "4.1%"
+              ]
+            ],
+            "notes": "Metrics illustrate ten-year changes following municipal tax credit implementation for technology infrastructure investments."
+          },
+          "requiredVocab": [
+            "The empirical evidence indicates that...",
+            "This phenomenon is directly attributed to...",
+            "Therefore, a viable intervention requires..."
+          ],
+          "structureRule": "Formulate a precise 3-stage logical hypothesis: Define observed quantitative correlation -> state causal socio-spatial mechanism -> articulate predicted demographic outcome.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like",
+            "I think",
+            "good",
+            "bad"
+          ],
+          "scaffolding": {
+            "recommendedStructure": [
+              "1. Core Trend Formulation",
+              "2. Causal Data Integration",
+              "3. Predictive Demographic Outcome"
+            ],
+            "sentenceStarters": [
+              "The data allows the formulation of the hypothesis that...",
+              "Elevated commercial real estate yields inversely correlate with..."
+            ],
+            "targetAcademicVocabulary": [
+              "socioeconomic displacement",
+              "capital accumulation",
+              "demographic retention",
+              "inverse correlation"
+            ],
+            "wordsToAvoid": [
+              "and then",
+              "so",
+              "because",
+              "like"
+            ],
+            "rubricChecklist": [
+              "Systematically links real estate yields to low-income retention rates",
+              "Excludes casual causal conjunctions such as 'because' or 'so'",
+              "Provides a precise, testable academic hypothesis statement"
+            ]
+          }
         }
       ]
     }
