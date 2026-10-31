@@ -3,118 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IB Daily Command Terms Writing — MYP 5 to DP Bridge</title>
-  <meta name="description" content="Daily 15-minute evidence-based academic writing practice for IB MYP 5 students. Master Command Terms (Analyze, Justify, Explain, Evaluate) with stimulus tables and one-click black & white printable PDF worksheets.">
+  <title>Daily Command Terms Writing Drill — IB MYP 5 to DP</title>
+  <meta name="description" content="Daily 15-minute high-density evidence-based academic writing drill worksheets for IB MYP 5 students.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="light-theme">
-  <!-- Top Navigation & Controls (Hidden in Print) -->
+  <!-- Minimalist Top Bar (Hidden in Print) -->
   <header class="app-header no-print">
     <div class="header-inner">
-      <div class="brand">
-        <div class="brand-badge">IB MYP 5 &rarr; DP</div>
-        <div class="brand-text">
-          <h1>Daily Command Terms Writing</h1>
-          <p class="subtitle">Evidence-based analytical writing for Humanities, Sciences & Design</p>
-        </div>
-      </div>
-
-      <div class="header-actions">
-        <!-- Global Timer Widget -->
-        <div class="timer-widget" id="timerWidget">
-          <div class="timer-display" id="timerDisplay">15:00</div>
-          <button class="timer-btn" id="timerToggleBtn" title="Start / Pause 15-min Practice Timer">
-            <svg class="icon play-icon" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-            <svg class="icon pause-icon hidden" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
-          </button>
-          <button class="timer-btn secondary" id="timerResetBtn" title="Reset Timer">
-            <svg class="icon" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
-          </button>
-        </div>
-
-        <!-- Print Day's Both Tasks Button -->
-        <button class="action-btn primary" id="printBothBtn" title="Print both tasks for the selected day onto 2 clean A4 pages">
-          <svg class="icon" viewBox="0 0 24 24"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
-          <span>Print Both Tasks (A4)</span>
-        </button>
-
-        <!-- Theme Toggle -->
-        <button class="icon-btn" id="themeToggleBtn" title="Toggle Dark/Light Mode">
-          <svg class="icon sun-icon hidden" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-          <svg class="icon moon-icon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-        </button>
-      </div>
-    </div>
-
-    <!-- Sub-bar: Day Selection & Subject Filters -->
-    <div class="controls-bar">
-      <div class="day-navigator">
+      <div class="day-controls">
         <button class="nav-arrow-btn" id="prevDayBtn" title="Previous Day">
           <svg class="icon" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
         </button>
-        <div class="day-badge-container">
-          <span class="day-label" id="currentDayLabel">Day 1</span>
+        <div class="day-title-wrap">
+          <span class="day-badge" id="currentDayBadge">Day 1</span>
           <span class="day-date" id="currentDateLabel">2026-10-31</span>
         </div>
         <button class="nav-arrow-btn" id="nextDayBtn" title="Next Day">
           <svg class="icon" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
         </button>
-        <button class="pill-btn" id="todayJumpBtn">Today</button>
+        <button class="today-btn" id="todayJumpBtn">Today</button>
       </div>
 
-      <div class="filter-group">
-        <label for="subjectFilter" class="filter-label">Filter Subject:</label>
-        <select id="subjectFilter" class="custom-select">
-          <option value="all">All Subjects</option>
-          <option value="Humanities">Humanities (Individuals & Societies)</option>
-          <option value="Sciences">Sciences</option>
-          <option value="Design">Design</option>
-          <option value="Personal Project">Personal Project</option>
-        </select>
-      </div>
-
-      <div class="template-selector-group">
-        <span class="filter-label">Print Layout Template:</span>
-        <div class="template-pills" id="templatePills">
-          <button class="tpl-pill active" data-template="worksheet" title="Includes 15 handwritten lined answer spaces">Worksheet (Ruled)</button>
-          <button class="tpl-pill" data-template="notebook" title="Compact stimulus & scaffolding to cut and paste into notebook">Notebook (Paste Slip)</button>
-          <button class="tpl-pill" data-template="matrix" title="Expanded data matrix with detailed analytical checklist">Data Focus</button>
+      <div class="header-actions">
+        <!-- 15-min Practice Timer -->
+        <div class="timer-chip" id="timerWidget">
+          <span class="timer-time" id="timerDisplay">15:00</span>
+          <button class="timer-action-btn" id="timerToggleBtn" title="Start/Pause 15-min timer">
+            <svg class="icon play-icon" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <svg class="icon pause-icon hidden" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <button class="timer-action-btn" id="timerResetBtn" title="Reset timer">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+          </button>
         </div>
+
+        <!-- One-Click Print Button (A4 1 Sheet) -->
+        <button class="print-main-btn" id="printDayBtn" title="Print this day's 2 drills onto 1 clean A4 page">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          <span>Print A4 Drill Sheet</span>
+        </button>
+
+        <!-- Theme Switcher -->
+        <button class="icon-toggle-btn" id="themeToggleBtn" title="Toggle Dark/Light Mode">
+          <svg class="icon sun-icon hidden" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon moon-icon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
       </div>
     </div>
   </header>
 
-  <!-- Interactive Hero Banner (Hidden in Print) -->
-  <section class="info-banner no-print">
-    <div class="banner-inner">
-      <div class="banner-badge">Purpose & Method</div>
-      <p class="banner-text">
-        <strong>Break free from generic opinion writing.</strong> IB MYP & DP require synthesizing evidence from stimulus data with precise command terms (<em>Analyze, Justify, Explain, Evaluate</em>). Practice 15 minutes daily: <strong>Print 1 sheet &rarr; Glue to notebook &rarr; Write with structured transitions &rarr; Avoid Japanese-English idioms</strong>.
-      </p>
-      <div class="banner-meta">
-        <span>Model: <code>gemini-3.8-flash</code></span>
-        <span>•</span>
-        <span>Updated: Daily via GitHub Actions</span>
-        <span>•</span>
-        <span>Target: 120–150 words / 15 mins</span>
+  <!-- Main Content Area -->
+  <main class="page-container" id="pageContainer">
+    <div class="drills-container" id="drillsContainer">
+      <!-- High-density drills dynamically rendered here -->
+      <div class="loading-state">
+        <div class="spinner"></div>
+        <p>Loading Daily Writing Drills...</p>
       </div>
     </div>
-  </section>
-
-  <!-- Main Container -->
-  <main class="main-content" id="mainContent">
-    <!-- Tasks will be rendered dynamically here -->
-    <div class="loading-state" id="loadingState">
-      <div class="spinner"></div>
-      <p>Loading Daily Writing Prompts...</p>
-    </div>
   </main>
-
-  <!-- Print Container (Dedicated clean structure for Print / PDF Generation) -->
-  <div id="printContainer" class="print-only"></div>
 
   <!-- Toast Notification -->
   <div id="toast" class="toast hidden">Copied to clipboard!</div>
