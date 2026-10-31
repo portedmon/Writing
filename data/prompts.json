@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T12:00:00Z",
-  "totalDays": 1,
+  "lastUpdated": "2026-10-31T11:35:17.695081+00:00",
+  "totalDays": 2,
   "days": [
     {
       "day": 1,
@@ -20,12 +20,42 @@
           "stimulusType": "table",
           "stimulus": {
             "title": "Public Transit Frequency vs. Household Socio-Economic Indicators (Metro Region)",
-            "headers": ["Zone Classification", "Median Household Income", "Avg. Walk to Transit Hub", "Transit Departures / hr (Peak)", "Car Ownership Rate"],
+            "headers": [
+              "Zone Classification",
+              "Median Household Income",
+              "Avg. Walk to Transit Hub",
+              "Transit Departures / hr (Peak)",
+              "Car Ownership Rate"
+            ],
             "rows": [
-              ["Zone A (Urban Core)", "$78,500", "4 minutes", "24 departures", "38%"],
-              ["Zone B (Inner Ring)", "$61,200", "7 minutes", "14 departures", "64%"],
-              ["Zone C (Outer Ring)", "$39,400", "18 minutes", "3 departures", "81%"],
-              ["Zone D (Suburban East)", "$96,000", "22 minutes", "2 departures", "95%"]
+              [
+                "Zone A (Urban Core)",
+                "$78,500",
+                "4 minutes",
+                "24 departures",
+                "38%"
+              ],
+              [
+                "Zone B (Inner Ring)",
+                "$61,200",
+                "7 minutes",
+                "14 departures",
+                "64%"
+              ],
+              [
+                "Zone C (Outer Ring)",
+                "$39,400",
+                "18 minutes",
+                "3 departures",
+                "81%"
+              ],
+              [
+                "Zone D (Suburban East)",
+                "$96,000",
+                "22 minutes",
+                "2 departures",
+                "95%"
+              ]
             ],
             "notes": "Context: Zone C accommodates 46% of the city's essential shift-workers who commute into the Urban Core daily."
           },
@@ -42,7 +72,13 @@
               "Consequently, the inadequate transit provision in Zone C exacerbates..."
             ],
             "targetAcademicVocabulary": [
-              "correlation", "disparity", "attributable to", "divergence", "disproportionately", "structural barrier", "infrastructure deficiency"
+              "correlation",
+              "disparity",
+              "attributable to",
+              "divergence",
+              "disproportionately",
+              "structural barrier",
+              "infrastructure deficiency"
             ],
             "wordsToAvoid": [
               "I think / In my opinion (Use: 'The data indicates' or 'It is apparent that')",
@@ -71,13 +107,43 @@
           "stimulusType": "table",
           "stimulus": {
             "title": "Performance and Resource Trial Data: Nitrate Remediation Technologies",
-            "headers": ["Evaluation Parameter", "Method A (Chemical Precipitation)", "Method B (Subsurface Bio-Barriers)", "Method C (Constructed Wetlands)"],
+            "headers": [
+              "Evaluation Parameter",
+              "Method A (Chemical Precipitation)",
+              "Method B (Subsurface Bio-Barriers)",
+              "Method C (Constructed Wetlands)"
+            ],
             "rows": [
-              ["Nitrate Removal Efficiency", "94%", "89%", "76%"],
-              ["Annual Operating Cost", "$165,000 / yr", "$38,000 / yr", "$52,000 / yr"],
-              ["Land Footprint Required", "< 0.2 hectares", "< 0.5 hectares (underground)", "14.5 hectares"],
-              ["Secondary Environmental Risk", "Chemical sludge disposal required", "Zero hazardous byproduct", "Mosquito vector breeding"],
-              ["Long-term Maintenance", "High (daily chemical dosing)", "Low (self-sustaining >6 yrs)", "Moderate (vegetation harvesting)"]
+              [
+                "Nitrate Removal Efficiency",
+                "94%",
+                "89%",
+                "76%"
+              ],
+              [
+                "Annual Operating Cost",
+                "$165,000 / yr",
+                "$38,000 / yr",
+                "$52,000 / yr"
+              ],
+              [
+                "Land Footprint Required",
+                "< 0.2 hectares",
+                "< 0.5 hectares (underground)",
+                "14.5 hectares"
+              ],
+              [
+                "Secondary Environmental Risk",
+                "Chemical sludge disposal required",
+                "Zero hazardous byproduct",
+                "Mosquito vector breeding"
+              ],
+              [
+                "Long-term Maintenance",
+                "High (daily chemical dosing)",
+                "Low (self-sustaining >6 yrs)",
+                "Moderate (vegetation harvesting)"
+              ]
             ],
             "notes": "Constraints: Municipal annual budget cap is $60,000. Land available adjacent to watershed is restricted to 2.0 hectares."
           },
@@ -94,7 +160,13 @@
               "By eliminating secondary hazardous byproducts while operating well below the $60,000 threshold, Method B balances..."
             ],
             "targetAcademicVocabulary": [
-              "viable", "unfeasible", "spatial constraint", "budgetary threshold", "byproduct", "remediation", "trade-off"
+              "viable",
+              "unfeasible",
+              "spatial constraint",
+              "budgetary threshold",
+              "byproduct",
+              "remediation",
+              "trade-off"
             ],
             "wordsToAvoid": [
               "I like Method B because...",
@@ -106,6 +178,175 @@
               "Directly referenced and compared quantitative metrics across all three methods",
               "Addressed external constraints (budget cap & land availability) as core justification",
               "Refuted competing alternatives using concrete scientific/operational reasoning"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-10-31",
+      "tasks": [
+        {
+          "id": "day2-task1",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry & Resource Management",
+          "commandTerm": "Evaluate",
+          "commandTermDefinition": "Make an appraisal by weighing up the strengths and limitations.",
+          "targetTimeMinutes": 15,
+          "targetWordCount": "120-150 words",
+          "mypCriterion": "Criterion D: Reflecting on the impacts of science",
+          "title": "Industrial Desalination Efficacy in Coastal Ecosystems",
+          "prompt": "Evaluate the viability of implementing reverse osmosis versus solar electrodialysis for municipal water purification in a semi-arid coastal municipality.",
+          "stimulusType": "table",
+          "stimulus": {
+            "title": "Performance, Energetic, and Ecological Metrics of Candidate Desalination Technologies",
+            "headers": [
+              "Technology Option",
+              "Energy Demand (kWh/m³)",
+              "Freshwater Recovery (%)",
+              "Brine Salinity Ratio (vs. Seawater)",
+              "Thermal/Chemical By-product Discharge"
+            ],
+            "rows": [
+              [
+                "Standard Seawater Reverse Osmosis (SWRO)",
+                "3.8",
+                "45%",
+                "2.1x",
+                "High anti-scalant biocide residues"
+              ],
+              [
+                "Multi-Stage Flash Distillation (MSF)",
+                "14.5",
+                "25%",
+                "1.4x",
+                "Elevated thermal plume (+8°C above ambient)"
+              ],
+              [
+                "Solar Electrodialysis Reversal (Solar-EDR)",
+                "2.1",
+                "68%",
+                "1.3x",
+                "Negligible chemical additive discharge"
+              ]
+            ],
+            "notes": "Municipal constraints: The facility must border a protected marine sanctuary with strict regulations capping effluent salinity at 1.5x ambient levels. Grid electricity costs $0.22/kWh; local solar irradiance averages 6.2 kWh/m²/day."
+          },
+          "scaffolding": {
+            "recommendedStructure": [
+              "1. Definitive comparative thesis balancing thermal/chemical output against water recovery yields.",
+              "2. Synthesis of data: weigh operational efficiency (recovery/energy) against ecological liabilities.",
+              "3. Concluding judgment identifying the optimal method under the explicit municipal constraints."
+            ],
+            "sentenceStarters": [
+              "While SWRO demonstrates superior volumetric throughput, its ecological footprint is compromised by...",
+              "A comparative assessment reveals that Solar-EDR balances energy inputs with...",
+              "Despite the established reliability of thermal distillation, MSF remains untenable due to...",
+              "Consequently, the data indicates that Solar-EDR represents the most viable solution because..."
+            ],
+            "targetAcademicVocabulary": [
+              "volumetric recovery rate",
+              "effluent discharge",
+              "thermal dissipation",
+              "ecological liability",
+              "operational viability"
+            ],
+            "wordsToAvoid": [
+              "I think / In my opinion (Use: 'The quantitative data indicates' or 'Comparative appraisal confirms')",
+              "bad for fish (Use: 'detrimental to marine benthic organisms')",
+              "a lot of power (Use: 'excessive specific energy consumption')"
+            ],
+            "rubricChecklist": [
+              "Identified strengths and limitations for at least two technologies based strictly on the table.",
+              "Integrated quantitative data (e.g., kWh/m³, recovery percentages, salinity ratios) as direct justification.",
+              "Addressed the environmental constraints (sanctuary limits, energy costs) to form an unambiguous appraisal.",
+              "Maintained a formal academic register without subjective personal pronouns."
+            ]
+          }
+        },
+        {
+          "id": "day2-task2",
+          "subject": "Design",
+          "subCategory": "Ergonomic & Sustainable Materials Engineering",
+          "commandTerm": "Explain",
+          "commandTermDefinition": "Give a detailed account including reasons or causes.",
+          "targetTimeMinutes": 15,
+          "targetWordCount": "120-150 words",
+          "mypCriterion": "Criterion A: Inquiring and analysing",
+          "title": "Material Suitability for Commuter Meal Containers",
+          "prompt": "Explain how material properties and lifecycle metrics determine the suitability of container candidates for active urban cyclists.",
+          "stimulusType": "table",
+          "stimulus": {
+            "title": "Material Specification Matrix for Secondary Food Storage Containers",
+            "headers": [
+              "Material Candidate",
+              "Tensile Yield Strength (MPa)",
+              "Density (g/cm³)",
+              "Microwave Safe / Thermal Tolerance",
+              "Embodied Carbon (kg CO₂e/unit)"
+            ],
+            "rows": [
+              [
+                "Polypropylene (Food-Grade PP)",
+                "32",
+                "0.91",
+                "Yes (up to 120°C)",
+                "1.8"
+              ],
+              [
+                "Borosilicate Glass",
+                "35 (Brittle shear)",
+                "2.23",
+                "Yes (up to 300°C)",
+                "4.6"
+              ],
+              [
+                "Anodized Aluminum (6061-T6)",
+                "276",
+                "2.70",
+                "No (electrical arcing hazard)",
+                "11.2"
+              ],
+              [
+                "Molded Bamboo Fiber Composite",
+                "18",
+                "1.45",
+                "Partial (degrades >80°C)",
+                "0.9"
+              ]
+            ],
+            "notes": "Target user profile: Commuters travel via bicycle in varied weather. Design specification requires high impact resistance during accidental transit drops, minimal carry-weight, and rapid office reheating capability."
+          },
+          "scaffolding": {
+            "recommendedStructure": [
+              "1. Direct statement linking specific material requirements (mass, resilience, reheating) to user needs.",
+              "2. Detailed cause-and-effect explanation analyzing why certain materials fail specific operational thresholds.",
+              "3. Synthesis explaining the primary candidate's balanced performance across lifecycle and functional metrics."
+            ],
+            "sentenceStarters": [
+              "Material selection for mobile commuters is primarily dictated by the correlation between...",
+              "Although anodized aluminum offers superior yield strength (276 MPa), its utility is eliminated by...",
+              "The elevated density of borosilicate glass (2.23 g/cm³) combined with shear brittleness introduces...",
+              "Hence, food-grade polypropylene emerges as the most functional solution because its low density..."
+            ],
+            "targetAcademicVocabulary": [
+              "tensile resilience",
+              "thermal stability",
+              "gravimetric efficiency",
+              "operational parameters",
+              "lifecycle impact"
+            ],
+            "wordsToAvoid": [
+              "good material (Use: 'optimal material configuration')",
+              "people like (Use: 'user operational requirements necessitate')",
+              "easy to break (Use: 'susceptible to brittle fracture under dynamic shock')"
+            ],
+            "rubricChecklist": [
+              "Provided clear causal mechanisms (e.g., density impacting transit fatigue; microwave non-compliance causing functional rejection).",
+              "Directly referenced comparative metrics from the stimulus table to substantiate the explanation.",
+              "Addressed all three design parameters: weight, durability, and reheating functionality.",
+              "Conformed to the 120-150 word limitation while sustaining an analytical tone."
             ]
           }
         }
