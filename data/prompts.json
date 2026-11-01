@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T12:06:44.634917+00:00",
-  "totalDays": 3,
+  "lastUpdated": "2026-11-01T03:16:59.799267+00:00",
+  "totalDays": 4,
   "days": [
     {
       "day": 1,
@@ -474,6 +474,80 @@
               "Provides a precise, testable academic hypothesis statement"
             ]
           }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-11-01",
+      "tasks": [
+        {
+          "id": "day4-task1",
+          "subject": "Humanities",
+          "subCategory": "Historical Imperial Economics",
+          "commandTerm": "Describe",
+          "commandTermDefinition": "Give a detailed account or picture of a situation, event, pattern or process.",
+          "targetWordCount": "120-150 words",
+          "title": "Mercantile Extraction Mechanisms in Colonial India",
+          "prompt": "Describe the core mechanisms of economic extraction implemented by the East India Company as demonstrated in the archival excerpt.",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Archival Excerpt: East India Company Board Minutes (1773)",
+            "content": "The extraction of agricultural revenue from the Bengal Subah must proceed without delay, prioritizing raw silk and opium monopolies to offset domestic liquidity deficits. Local artisan production of finished woven cottons shall be constrained through internal transit tariffs to prevent direct competition with British factory imports.",
+            "keyPoints": [
+              "Establishment of state-enforced monopolies over raw silk and opium exports",
+              "Systematic suppression of local finished cotton weaving via internal transit tariffs",
+              "Redirection of local tax revenue to offset British domestic liquidity shortages"
+            ],
+            "notes": "Primary source document illustrating mercantile extraction logic during early colonial expansion in South Asia."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This structural shift was characterized by...",
+            "Consequently, the institutional framework..."
+          ],
+          "structureRule": "Execute a 3-part descriptive synthesis: State the overarching economic strategy -> detail the specific extraction mechanisms cited in the document -> describe the structural impact on local production.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day4-task2",
+          "subject": "Personal Project",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Outline",
+          "commandTermDefinition": "Give a brief summary of the essential features or general principles.",
+          "targetWordCount": "120-150 words",
+          "title": "Design Specifications for Inclusive Learning Tools",
+          "prompt": "Outline the primary functional features and target user constraints established in the design brief for the accessibility product.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief: Modular Desktop Organizer for Visually Impaired Learners",
+            "content": "The objective is to manufacture a modular desktop storage system for middle school students with low vision. The design must integrate high-contrast structural boundaries, tactile identification cues, and toolless assembly to facilitate independent utility within standard classroom environments.",
+            "keyPoints": [
+              "Tactile braille and embossed symbols integrated onto primary drawer fronts",
+              "High-contrast matte-yellow edge banding on deep-navy casing for spatial awareness",
+              "Toolless magnetic click-lock assembly operating under 15N of required manual force"
+            ],
+            "notes": "Maximum spatial footprint constraint: 25cm x 15cm x 20cm. Material standard: Recyclable non-toxic ABS polymer."
+          },
+          "requiredVocab": [
+            "The primary design framework encompasses...",
+            "Key operational parameters include...",
+            "This configuration serves to..."
+          ],
+          "structureRule": "Construct a streamlined summary outline: State the primary product objective -> summarize the three core tactile and visual features -> outline how these features satisfy the identified user constraints.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ]
         }
       ]
     }
