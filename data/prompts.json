@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-01T03:16:59.799267+00:00",
-  "totalDays": 4,
+  "lastUpdated": "2026-11-02T03:27:00.668836+00:00",
+  "totalDays": 5,
   "days": [
     {
       "day": 1,
@@ -542,6 +542,80 @@
             "This configuration serves to..."
           ],
           "structureRule": "Construct a streamlined summary outline: State the primary product objective -> summarize the three core tactile and visual features -> outline how these features satisfy the identified user constraints.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-11-02",
+      "tasks": [
+        {
+          "id": "day5-task1",
+          "subject": "Sciences",
+          "subCategory": "Environmental Ecotoxicology",
+          "commandTerm": "To what extent",
+          "commandTermDefinition": "Consider the efficacy or validity of an argument or hypothesis; identify nuances and counter-perspectives.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluation of Phytoremediation Efficiency in Heavy Metal Wastewater Processing",
+          "prompt": "To what extent does the utilization of Eichhornia crassipes in industrial wastewater treatment protocols effectively mitigate heavy metal toxicity without compromising systemic ecological stability?",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Trial Log 04B: Aquatic Phytoremediation Protocol & Anomaly Observations",
+            "content": "Continuous-flow bioreactor testing evaluated Eichhornia crassipes bioaccumulation of Lead (Pb2+) over 14 days under controlled environmental parameters (pH 6.5, 22°C). Root necrosis and organic exudate leakage were registered during the final phase.",
+            "keyPoints": [
+              "Lead ion concentration declined by 88.4% within the first 8 days of exposure.",
+              "Cellular uptake rates dropped from 4.2 mg/g/day (Days 1-5) to 0.3 mg/g/day (Days 10-14).",
+              "Day 10 root saturation triggered a 14% rebound in Dissolved Organic Carbon (DOC) due to biological tissue decay."
+            ],
+            "notes": "Regulatory discharge threshold for Pb2+ is 0.05 mg/L; root tissue saturation threshold occurs at 45 mg Pb2+/g dry biomass."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This is underpinned by the fact that...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Construct a 3-step validation framework: Assert the efficacy boundary -> synthesize experimental bioaccumulation parameters against regulatory limits -> deduce the biological mechanism restricting long-term remediation capacity.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day5-task2",
+          "subject": "Personal Project",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Analyze",
+          "commandTermDefinition": "Break down in order to bring out the essential elements or structure. (To identify parts and relationships, interpret patterns, and reach conclusions).",
+          "targetWordCount": "120-150 words",
+          "title": "Trade-off Analysis of Assistive Upper-Limb Exoskeletal Specifications",
+          "prompt": "Analyze the operational relationships between material rigidity, thermal performance, and user-perceived ergonomic utility in the provided assistive design specification.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief & Ergonomic Evaluation: Project Exoskeletal-Flex",
+            "content": "Engineering specifications targeting a lightweight wearable upper-limb support for geriatric users with rheumatoid arthritis. Primary functional requirement demands 25Nm lifting assistance while remaining under 1.2 kg total mass.",
+            "keyPoints": [
+              "Carbon-fiber composite frame reduces structural mass to 0.95 kg while elevating chassis stiffness by 40%.",
+              "Silicone pressure-distribution lining mitigates localized focal points but increases skin contact zone temperature by 3.5°C.",
+              "User trials indicate a 35% reduction in muscular effort, offset by severe epidermal irritation past 45 minutes of continuous wear."
+            ],
+            "notes": "ISO 9241-210 human-centered design compliance requires continuous comfortable wear duration of at least 60 minutes."
+          },
+          "requiredVocab": [
+            "A critical examination reveals that...",
+            "This directly correlates with...",
+            "Thus, the structural interplay demonstrates..."
+          ],
+          "structureRule": "Apply a structural decomposition framework: Categorize physical material properties -> evaluate the dynamic relationship between mechanical benefits and ergonomic constraints -> articulate the functional design limitation.",
           "bannedWords": [
             "and then",
             "so",
