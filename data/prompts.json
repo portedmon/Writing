@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-02T03:27:00.668836+00:00",
-  "totalDays": 5,
+  "lastUpdated": "2026-11-03T04:36:55.581841+00:00",
+  "totalDays": 6,
   "days": [
     {
       "day": 1,
@@ -621,6 +621,83 @@
             "so",
             "because",
             "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-11-03",
+      "tasks": [
+        {
+          "id": "day6-task1",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Justify",
+          "commandTermDefinition": "Give valid reasons or evidence to support an answer or conclusion.",
+          "targetWordCount": "120-150 words",
+          "title": "Selection of Poly-Lactic Acid Composite for Assistive Mobility Devices",
+          "prompt": "Justify the selection of Poly-Lactic Acid/Flax-Fiber (PLA-FF) composite over Traditional Aluminium 6061-T6 for an ergonomic urban assistive walking frame, addressing sustainability constraints and user ergonomic metrics.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Client Design Brief: Eco-Assist Mobility Device (Client #804)",
+            "content": "The client requires an ergonomic walking frame targeted at elderly urban residents. The frame must withstand a structural static load of 1,200 N while keeping total weight under 2.2 kg. Manufacturing must reduce cradle-to-gate carbon footprint by at least 40% compared to standard metallic alloys.",
+            "keyPoints": [
+              "PLA-FF Composite: Yield strength = 110 MPa, density = 1.35 g/cm³, embodied carbon = 2.1 kg CO2e/kg, fully compostable under industrial conditions.",
+              "Aluminium 6061-T6: Yield strength = 276 MPa, density = 2.70 g/cm³, embodied carbon = 11.5 kg CO2e/kg, highly energy-intensive primary production.",
+              "Ergonomic grip feedback indicates a 22% reduction in palmar contact stress using PLA-FF molded contours compared to extruded aluminum tubing."
+            ],
+            "notes": "Structural load safety factor minimum = 1.5. Industrial composting infrastructure is available in 85% of target municipal zones."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This selection is underpinned by the fact that...",
+            "Consequently, the integration of..."
+          ],
+          "structureRule": "Construct a 3-step validation framework: State optimal material choice -> synthesize mechanical yield and carbon metrics from the brief -> deduce long-term ergonomic and environmental viability without personal pronouns.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day6-task2",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry",
+          "commandTerm": "Evaluate",
+          "commandTermDefinition": "Make an appraisal by weighing up the strengths and limitations.",
+          "targetWordCount": "120-150 words",
+          "title": "Assessment of Eutrophication Remediation via Calcium Peroxide Dosing",
+          "prompt": "Evaluate the reliability and methodological limitations of using calcium peroxide (CaO2) chemical dosing to remediate dissolved oxygen depletion in urban runoff ponds based on the experimental protocol log.",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Experimental Protocol Log: Dissolved Oxygen (DO) Recovery & Phytoplankton Response",
+            "content": "Field trial logs recorded DO concentrations (mg/L) and cyanobacterial cell density (cells/mL) at 48-hour intervals post-dosing with 15 g/m³ CaO2 in a closed mesocosm system under ambient sunlight (22°C - 26°C).",
+            "keyPoints": [
+              "Baseline (0h): DO = 2.1 mg/L (hypoxic), Cyanobacteria = 1.4 × 10^5 cells/mL.",
+              "48h Post-Dosing: DO spiked to 8.9 mg/L (+323%); Cyanobacteria dropped to 3.2 × 10^3 cells/mL.",
+              "96h Post-Dosing: DO declined to 4.3 mg/L; sudden pH increase observed from 7.2 to 9.6 due to hydroxide accumulation.",
+              "Anomaly observed: Rebound in pH-tolerant chlorophytes at 120h, alongside localized macroinvertebrate mortality."
+            ],
+            "notes": "Mesocosm volume = 5,000 L. Light intensity was unmonitored between 48h and 96h due to optical sensor failure."
+          },
+          "requiredVocab": [
+            "An analysis of the experimental parameters reveals...",
+            "Conversely, significant limitations arise from...",
+            "Thus, weighing the short-term efficacy against..."
+          ],
+          "structureRule": "Construct a balanced appraisal framework: Outline short-term quantitative efficacy -> examine methodological limitations and ecological anomalies -> deduce an overall judgment regarding methodological validity.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like",
+            "I think",
+            "good"
           ]
         }
       ]
