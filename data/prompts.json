@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-04T03:56:09.392320+00:00",
-  "totalDays": 7,
+  "lastUpdated": "2026-11-05T04:17:07.495736+00:00",
+  "totalDays": 8,
   "days": [
     {
       "day": 1,
@@ -767,6 +767,80 @@
             "Thus, a balanced synthesis suggests..."
           ],
           "structureRule": "Formulate a balanced 3-part synthesis: Evaluate evidence of trophic biomagnification and cellular disruption -> analyze counter-evidence regarding metabolic clearance mechanisms -> deduce the broader ecological risk profile.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "date": "2026-11-05",
+      "tasks": [
+        {
+          "id": "day8-task1",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry",
+          "commandTerm": "Formulate",
+          "commandTermDefinition": "Express the relevant concept or argument systematically in a clear, precise manner.",
+          "targetWordCount": "120-150 words",
+          "title": "Formulating a Testable Hypothesis on Eutrophication Kinetics",
+          "prompt": "Formulate a precise, testable scientific hypothesis and explanatory rationale regarding the relationship between nitrate enrichment and dissolved oxygen depletion rates using the provided experimental log.",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Experimental Runoff Log: Anoxic Zone Induction Protocol (Trial 04-B)",
+            "content": "An automated sensor array monitored enclosed aquatic mesocosms inoculated with cyanobacteria (Microcystis aeruginosa). Potassium nitrate spikes were introduced at T0, followed by continuous logging of Photosynthetically Active Radiation attenuation and dissolved oxygen (DO) depletion rates over 72 hours.",
+            "keyPoints": [
+              "Mesocosm A (5 mg/L nitrate): DO depletion rate = 0.42 mg/L/day; light attenuation = 12%",
+              "Mesocosm B (15 mg/L nitrate): DO depletion rate = 1.85 mg/L/day; light attenuation = 48%",
+              "Mesocosm C (30 mg/L nitrate): DO depletion rate = 4.10 mg/L/day; light attenuation = 85% (Anoxia induced at T+48h)"
+            ],
+            "notes": "Critical environmental threshold: DO concentrations below 4.0 mg/L induce severe benthic mortality."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This is underpinned by the fact that...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Construct a 3-step scientific logic formulation: State the conditional hypothesis (If... then...) -> synthesize empirical sensor data -> deduce the systemic biochemical mechanism without using personal pronouns.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day8-task2",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Describe",
+          "commandTermDefinition": "Give a detailed account or picture of a situation, event, pattern or process.",
+          "targetWordCount": "120-150 words",
+          "title": "Describing Ergonomic Adaptations for Assistive Input Devices",
+          "prompt": "Describe the physical features and operational processes of an adaptive keyboard designed for users with severe rheumatoid arthritis, incorporating all specifications from the design brief.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief: Inclusive Workspace Equipment (Target Persona: Arthritic Users)",
+            "content": "Target end-users present stage-2 rheumatoid arthritis in metacarpophalangeal joints, resulting in reduced maximum pinch force (<15 N) and acute joint stress during sustained wrist extension exceeding 15 degrees.",
+            "keyPoints": [
+              "Actuation Force: Low-resistance linear switches requiring <= 0.25 N force",
+              "Keycap Topography: Concave keycaps measuring 22mm x 22mm with tactile high-contrast borders",
+              "Support Geometry: Integrated memory-foam wrist rest securing a neutral 0-degree wrist angle"
+            ],
+            "notes": "Design solution must strictly comply with ISO 9241-410 accessibility standards for physical input devices."
+          },
+          "requiredVocab": [
+            "A primary structural feature entails...",
+            "This directly correlates with...",
+            "Furthermore, the integration of..."
+          ],
+          "structureRule": "Structure as a detailed descriptive breakdown: State the specific physical constraint -> describe the technical design response -> detail the functional ergonomic benefit.",
           "bannedWords": [
             "and then",
             "so",
