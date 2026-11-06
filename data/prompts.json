@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-05T04:17:07.495736+00:00",
-  "totalDays": 8,
+  "lastUpdated": "2026-11-06T04:14:12.217386+00:00",
+  "totalDays": 9,
   "days": [
     {
       "day": 1,
@@ -846,6 +846,82 @@
             "so",
             "because",
             "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-11-06",
+      "tasks": [
+        {
+          "id": "day9-task1",
+          "subject": "Design",
+          "subCategory": "Ergonomic & Inclusive Product Design",
+          "commandTerm": "Outline",
+          "commandTermDefinition": "Give a brief summary of the essential features or general principles.",
+          "targetWordCount": "120-150 words",
+          "title": "Outlining Ergonomic Solution Criteria for Assistive Micro-Mobility",
+          "prompt": "Outline a multi-layered design specification framework for an adaptive urban mobility device based on the provided user persona and ergonomic constraints.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Specifications & Persona Profile: Project UrbanGlide",
+            "content": "The target user cohort consists of elderly urban residents with mild motor impairment (grip strength ceiling of 18 Nm) navigating high-density, uneven urban pavements. The device must balance structural rigidity, rapid deployment, and intuitive operational safety without exceeding a total mass of 4.5 kg.",
+            "keyPoints": [
+              "Physical constraint: Maximum allowable grip force of 18 Nm requires lever-assisted or magnetic latching mechanisms.",
+              "Weight parameters: Maximum structural mass of 4.5 kg achieved via carbon-composite tubular framework.",
+              "Safety specification: Dual-channel braking system operational under minimal activation force (< 10 N)."
+            ],
+            "notes": "Full compliance with ISO 11199-2 standards for tactile walking aids is mandatory."
+          },
+          "requiredVocab": [
+            "It is imperative to establish that...",
+            "This design framework is underpinned by...",
+            "Consequently, the structural integration of..."
+          ],
+          "structureRule": "Construct a 3-part design outline: 1. State core functional requirements addressing physical user constraints. 2. Synthesize stimulus specifications into clear structural criteria. 3. Detail the explicit verification mechanism for regulatory compliance.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day9-task2",
+          "subject": "Humanities",
+          "subCategory": "Modern Imperial History & Economic Geography",
+          "commandTerm": "To what extent",
+          "commandTermDefinition": "Consider the efficacy or validity of an argument or hypothesis; identify nuances and counter-perspectives.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluating Economic Determinism in Post-War Reconstruction",
+          "prompt": "To what extent was external financial aid the primary catalyst for political stabilization in post-WWII Western Europe, based on the provided archival excerpt?",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Archival Excerpt: Diplomatic Cable on European Recovery (1948)",
+            "content": "\"While financial infusions under the Recovery Program have undeniably blunted immediate social unrest and restored industrial capacity, it would be an oversimplification to attribute political equilibrium solely to capital. Regional political coalition-building and domestic security reforms provided the necessary institutional container without which financial liquidity would have dissolved into systemic corruption.\"",
+            "keyPoints": [
+              "Capital infusion successfully alleviated immediate social volatility and industrial paralysis.",
+              "Domestic political coalitions and security reforms acted as the essential structural container.",
+              "Financial liquidity alone lacked efficacy without pre-existing institutional frameworks."
+            ],
+            "notes": "Declassified U.S. State Department memorandum evaluating foreign assistance allocation."
+          },
+          "requiredVocab": [
+            "To a considerable degree, evidence suggests that...",
+            "Conversely, this perspective fails to account for...",
+            "Ultimately, a nuanced synthesis reveals that..."
+          ],
+          "structureRule": "Formulate a balanced counter-thesis: 1. Evaluate the primary argument supporting economic determinism using stimulus evidence. 2. Introduce the counter-perspective highlighting institutional preconditions. 3. Synthesize both viewpoints to state the precise extent of validity.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like",
+            "I think",
+            "good"
           ]
         }
       ]
