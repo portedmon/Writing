@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-06T04:14:12.217386+00:00",
-  "totalDays": 9,
+  "lastUpdated": "2026-11-07T03:45:33.488041+00:00",
+  "totalDays": 10,
   "days": [
     {
       "day": 1,
@@ -922,6 +922,80 @@
             "like",
             "I think",
             "good"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-11-07",
+      "tasks": [
+        {
+          "id": "day10-task1",
+          "subject": "Humanities",
+          "subCategory": "Historical Geopolitics",
+          "commandTerm": "Analyze",
+          "commandTermDefinition": "Break down in order to bring out the essential elements or structure. (To identify parts and relationships, interpret patterns, and reach conclusions).",
+          "targetWordCount": "120-150 words",
+          "title": "Analyzing Socio-Economic Disruption via Primary Archival Reports",
+          "prompt": "Analyze the socio-economic impacts of industrial restructuring on the Northern Ruhr region using the provided primary source excerpt.",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Excerpt from the Ruhr Valley Industrial Transition Commission Report (1974)",
+            "content": "The structural transition from bituminous coal extraction to specialized metallurgical processing has precipitated immediate workforce displacement across the Northern Ruhr municipal zone. Municipal revenue logs indicate a 34% contraction in tax yields, directly corresponding with an unprecedented outward demographic shift of skilled wage laborers toward Southern manufacturing hubs.",
+            "keyPoints": [
+              "34% contraction in municipal tax revenues within 12 months",
+              "Outward demographic migration of skilled labor toward Southern industrial zones",
+              "Accelerated decline in traditional coal extraction alongside specialized metallurgical growth"
+            ],
+            "notes": "Evaluate the structural relationship between resource exhaustion, fiscal municipal instability, and regional demographic mobility."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that",
+            "This structural divergence is underpinned by",
+            "Consequently, it becomes clear that"
+          ],
+          "structureRule": "Construct a 3-step analytical response: Identify the core cause-and-effect relationship -> synthesize qualitative and quantitative evidence from the archival text -> deduce the systemic socio-economic implications for regional governance.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day10-task2",
+          "subject": "Personal Project",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Justify",
+          "commandTermDefinition": "Give valid reasons or evidence to support an answer or conclusion.",
+          "targetWordCount": "120-150 words",
+          "title": "Justifying Material Selection under Ergonomic and Financial Constraints",
+          "prompt": "Justify the selection of a textured medical-grade silicone polymer over High-Density Polyethylene (HDPE) for an adaptive assistive grip device.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief & Constraints: Assistive Writing Apparatus (v3.2)",
+            "content": "The product design must cater to individuals affected by joint inflammation, requiring minimal grip force and high tactile friction. The assembly must endure daily chemical sanitation using 70% isopropyl alcohol solution while remaining under a rigid unit production threshold of $15.00 USD.",
+            "keyPoints": [
+              "Target mass: under 45 grams total weight",
+              "Material requirement: Non-porous, chemically inert elastomer offering a static friction coefficient > 0.8",
+              "Unit production cost limit: $15.00 USD (Silicone: $11.20/unit; HDPE: $6.50/unit)"
+            ],
+            "notes": "ISO 9241-9 standard requires minimal muscular torque for micro-adjustments during extended motor tasks."
+          },
+          "requiredVocab": [
+            "The selection of this material is substantiated by",
+            "When evaluated against the design constraints, it becomes evident that",
+            "Therefore, the implementation of this design choice is fully aligned with"
+          ],
+          "structureRule": "Construct a 3-step justification: Formulate the primary claim regarding material selection -> cross-reference functional performance data directly with design brief criteria -> explicitly demonstrate why the cheaper alternative fails ergonomics mandates.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
           ]
         }
       ]
