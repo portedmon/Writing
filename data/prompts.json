@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-07T03:45:33.488041+00:00",
-  "totalDays": 10,
+  "lastUpdated": "2026-11-08T03:24:53.716118+00:00",
+  "totalDays": 11,
   "days": [
     {
       "day": 1,
@@ -991,6 +991,80 @@
             "Therefore, the implementation of this design choice is fully aligned with"
           ],
           "structureRule": "Construct a 3-step justification: Formulate the primary claim regarding material selection -> cross-reference functional performance data directly with design brief criteria -> explicitly demonstrate why the cheaper alternative fails ergonomics mandates.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "date": "2026-11-08",
+      "tasks": [
+        {
+          "id": "day11-task1",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry",
+          "commandTerm": "Evaluate",
+          "commandTermDefinition": "Make an appraisal by weighing up the strengths and limitations.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluation of Industrial Efficacy vs. Ecotoxicity in Heavy Metal Remediation Protocols",
+          "prompt": "Evaluate the operational viability of Bio-Sorption Protocol B relative to Synthetic Ion-Exchange Resin Protocol A for industrial wastewater remediation.",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Bench-Scale Wastewater Treatment Anomaly & Efficacy Log (Batch #409)",
+            "content": "Trial protocols were subjected to 500 mg/L Pb2+ and Cd2+ contaminated effluents at pH 5.5 over 120 minutes. Protocol A utilized synthetic resin IR-120; Protocol B utilized functionalized bio-char derived from agricultural waste.",
+            "keyPoints": [
+              "Protocol A achieved 98.4% heavy metal extraction within 15 minutes, but synthetic monomer leeching elevated effluent chemical oxygen demand (COD) by 35%.",
+              "Protocol B achieved 87.1% extraction over 90 minutes with zero organic leeching, but exhibited a 22% structural degradation rate under thermal stress (>45°C).",
+              "Regeneration capacity: Protocol A retained 92% extraction capability after 10 cycles, whereas Protocol B declined to 41% capacity after 3 cycles."
+            ],
+            "notes": "Regulatory standards mandate a maximum allowable effluent COD increase of 10%. Mean industrial discharge temperature measures 40-50°C."
+          },
+          "requiredVocab": [
+            "While Protocol A demonstrates superior kinetic efficiency...",
+            "This strength is substantially offset by...",
+            "From an ecological compliance perspective..."
+          ],
+          "structureRule": "Construct a 3-step evaluation: Appraise operational strengths of Protocol A -> Analyze critical systemic limitations highlighted by regulatory standards -> Weigh against Protocol B to formulate a definitive judgment.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day11-task2",
+          "subject": "Personal Project",
+          "subCategory": "Product Design & Ergonomics",
+          "commandTerm": "Explain",
+          "commandTermDefinition": "Give a detailed account including reasons or causes.",
+          "targetWordCount": "120-150 words",
+          "title": "Explanation of Design Modifications Based on User Ergonomic Feedback",
+          "prompt": "Explain how user testing feedback and ergonomic constraints dictated the design iterations of the adaptive dysgraphia writing grip prototype.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "User Persona & Feedback Digest: Assistive Writing Tool (Iteration 2)",
+            "content": "Testing was conducted with 12 middle school students diagnosed with dysgraphia. Primary metrics evaluated included hand fatigue latency, pinch force distribution, and tactile material stability.",
+            "keyPoints": [
+              "Initial rigid PLA polymer chassis induced localized pressure ischemia in 75% of participants within 10 minutes of continuous writing.",
+              "Integration of a 30-durometer silicone overmold extended mean fatigue latency from 8.5 minutes to 24.2 minutes.",
+              "A 15-degree lateral asymmetrical flare reduced requisite pinch force by 1.8 Newtons, minimizing joint stress."
+            ],
+            "notes": "Target success criterion: Continuous comfortable usage exceeding 20 minutes without acute muscular strain."
+          },
+          "requiredVocab": [
+            "The primary rationale behind this iteration...",
+            "This modification directly addresses...",
+            "Consequently, empirical testing indicates that..."
+          ],
+          "structureRule": "Construct a causal explanation: State the initial ergonomic failure point -> Explain the biomechanical mechanism of the design modification -> Connect the modification directly to user performance outcomes.",
           "bannedWords": [
             "and then",
             "so",
