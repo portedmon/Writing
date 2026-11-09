@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-08T03:24:53.716118+00:00",
-  "totalDays": 11,
+  "lastUpdated": "2026-11-09T03:42:02.610120+00:00",
+  "totalDays": 12,
   "days": [
     {
       "day": 1,
@@ -1070,6 +1070,81 @@
             "so",
             "because",
             "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "date": "2026-11-09",
+      "tasks": [
+        {
+          "id": "day12-task1",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Discuss",
+          "commandTermDefinition": "Offer a considered and balanced review that includes a range of arguments, factors or hypotheses.",
+          "targetWordCount": "120-150 words",
+          "title": "Trade-off Analysis for Modular Upper-Limb Prosthetic Interface",
+          "prompt": "Discuss the structural, ergonomic, and economic trade-offs of selecting PETG versus TPU filament in the rapid prototyping of a low-cost juvenile prosthetic hand.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief: Low-Cost Assistive Upper-Limb Terminal Device (v3.2)",
+            "content": "The client requires a modular, 3D-printed hand terminal for juvenile users with congenital upper-limb deficiencies. The assembly must sustain cyclic tensile loads up to 150 N while maintaining total production costs below $45 and unit mass under 250 g.",
+            "keyPoints": [
+              "Material A (PETG): Tensile strength 48 MPa, low print failure rate, raw material cost $0.03/g, rigid contact points.",
+              "Material B (TPU): Impact resistance 120 kJ/m², high surface friction, higher print failure rate, raw material cost $0.07/g, compliant grip surfaces.",
+              "Ergonomic Constraint: Actuation force for finger trigger mechanism must not exceed 12 N."
+            ],
+            "notes": "ISO 22523 compliance mandates non-toxic epidermal contact and IP65 moisture resistance."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This is underpinned by the fact that...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Construct a balanced evaluation: Identify primary mechanical trade-offs -> weigh material properties (PETG vs. TPU) against user ergonomic constraints -> synthesize an optimized material selection rationale.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day12-task2",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry",
+          "commandTerm": "Formulate",
+          "commandTermDefinition": "Express the relevant concept or argument systematically in a clear, precise manner.",
+          "targetWordCount": "120-150 words",
+          "title": "Catalytic Decomposition Kinetics in Urban Runoff Water",
+          "prompt": "Formulate a testable hypothesis and a systematic experimental procedure to determine the order of reaction with respect to trace iron catalysts in aqueous hydrogen peroxide breakdown.",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Laboratory Observation Log: Homogeneous Catalysis in Runoff Samples",
+            "content": "Initial trial monitoring oxygen evolution from 3.0% H2O2 treated with fixed MnO2 mass showed unexpected rate acceleration across distinct urban runoff samples. Spectrophotometric analysis confirmed varying baseline concentrations of dissolved Fe3+ ions in the runoff matrices.",
+            "keyPoints": [
+              "Runoff Sample A ([Fe3+] = 0.05 mM, pH 6.8): Initial oxygen evolution rate = 1.2 mL/s at 25.0 °C.",
+              "Runoff Sample B ([Fe3+] = 0.40 mM, pH 6.8): Initial oxygen evolution rate = 4.8 mL/s at 25.0 °C.",
+              "Controlled baseline: Deionized water control ([Fe3+] = 0.00 mM) yielded 0.3 mL/s."
+            ],
+            "notes": "Synergistic dual-catalyst mechanism (solid MnO2 + aqueous Fe3+) suggested by non-linear kinetic rate curves."
+          },
+          "requiredVocab": [
+            "The evidence suggests a direct correlation between...",
+            "This reaction mechanism hinges upon...",
+            "To systematically verify this hypothesis,..."
+          ],
+          "structureRule": "Formulate a 3-part scientific framework: State a precise, mathematically grounded hypothesis -> establish independent, dependent, and controlled variables -> detail the analytical methodology for determining reaction order.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like",
+            "I think"
           ]
         }
       ]
