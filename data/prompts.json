@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-11T03:46:40.196591+00:00",
-  "totalDays": 13,
+  "lastUpdated": "2026-11-12T04:55:58.062787+00:00",
+  "totalDays": 14,
   "days": [
     {
       "day": 1,
@@ -1221,6 +1221,80 @@
             "like",
             "bad",
             "good"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "date": "2026-11-12",
+      "tasks": [
+        {
+          "id": "day14-task1",
+          "subject": "Sciences",
+          "subCategory": "Aqueous Environmental Chemistry",
+          "commandTerm": "To what extent",
+          "commandTermDefinition": "Consider the efficacy or validity of an argument or hypothesis; identify nuances and counter-perspectives.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluating Efficacy of Bio-Sorption Protocols in Heavy Metal Remediation",
+          "prompt": "To what extent does the implementation of modified chitin bio-sorbents mitigate heavy metal toxicity in industrial wastewater without destabilizing ambient aquatic pH?",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Trial Logs: Cadmium (Cd2+) Sorption Kinetics and Effluent pH Drift",
+            "content": "Observation log for Trial Batch 4B utilizing functionalized chitin biopolymers within a continuous stirred-tank reactor across a 240-minute incubation period at standard temperature.",
+            "keyPoints": [
+              "Cd2+ concentration decreased from 45.0 mg/L to 1.2 mg/L within 120 minutes (97.3% removal efficiency).",
+              "Effluent pH dropped sharply from baseline 6.8 to 4.1 due to proton liberation during ion-exchange adsorption.",
+              "Ecotoxicity testing revealed an acute mortality rate of 85% in target bio-indicator organisms (Daphnia magna) at pH 4.1."
+            ],
+            "notes": "Statutory environmental discharge standards dictate a strict pH operating envelope of 6.5–8.5 and Cd2+ concentrations below 2.0 mg/L."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This is underpinned by the fact that...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Construct a 3-step validation framework: Assert the sorption efficacy using quantitative empirical metrics -> contextualize the ecological trade-offs highlighted in the pH anomaly observations -> deduce the overall operational viability against statutory standards.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day14-task2",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Analyze",
+          "commandTermDefinition": "Break down in order to bring out the essential elements or structure. (To identify parts and relationships, interpret patterns, and reach conclusions).",
+          "targetWordCount": "120-150 words",
+          "title": "Structural Analysis of Haptic Wearable Interfaces for Visually Impaired Users",
+          "prompt": "Analyze the structural and functional relationships between tactile button topography, thermal constraints, and spatial memory retention in the provided wearable interface design brief.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Specifications: Spatial-Haptic Navigation Bracelet (Model H-3)",
+            "content": "Target User Persona: Visually impaired adults navigating high-density urban transit nodes. Model H-3 delivers real-time telemetry via dynamic surface thermal elements and localized micro-vibrational arrays.",
+            "keyPoints": [
+              "Micro-actuator arrays mandate a continuous operating surface temperature between 32°C and 38°C; thermal spikes above 40°C induce epidermal desensitization within 15 minutes.",
+              "Tactile raised-glyph buttons with a 0.8mm elevation pitch yielded a 94% spatial recognition rate during sensory testing.",
+              "Total chassis mass of 210g induces significant wrist extensor fatigue during extended continuous wear exceeding 45 minutes."
+            ],
+            "notes": "Design Constraint: Physical mass must be reduced by at least 25% while sustaining active thermal dissipation mechanisms."
+          },
+          "requiredVocab": [
+            "The structural interrelationship between...",
+            "A critical breakdown reveals that...",
+            "This pattern demonstrates that..."
+          ],
+          "structureRule": "Deconstruct the interface system into three structural components: Identify physical and thermal attributes -> interpret functional constraints on user interaction -> deduce necessary design optimizations based on ergonomic thresholds.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
           ]
         }
       ]
