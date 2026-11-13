@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-12T04:55:58.062787+00:00",
-  "totalDays": 14,
+  "lastUpdated": "2026-11-13T04:08:45.224178+00:00",
+  "totalDays": 15,
   "days": [
     {
       "day": 1,
@@ -1290,6 +1290,82 @@
             "This pattern demonstrates that..."
           ],
           "structureRule": "Deconstruct the interface system into three structural components: Identify physical and thermal attributes -> interpret functional constraints on user interaction -> deduce necessary design optimizations based on ergonomic thresholds.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "date": "2026-11-13",
+      "tasks": [
+        {
+          "id": "day15-task1",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Justify",
+          "commandTermDefinition": "Give valid reasons or evidence to support an answer or conclusion.",
+          "targetWordCount": "120-150 words",
+          "title": "Justification of Material Selection for Assistive Utensil Grips",
+          "prompt": "Justify the selection of Recycled Thermoplastic Polyurethane (R-TPU) over Grade 5 Titanium for the customizable grip matrix of an assistive eating utensil designed for individuals with severe rheumatoid arthritis.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief & User Persona: Project Assist-Eat (Target Cohort: Elderly Arthritic Users)",
+            "content": "The target cohort comprises individuals experiencing severely reduced grip strength (< 15 N) and chronic joint inflammation. The device must tolerate daily thermal sanitization cycles (up to 70°C), absorb impacts from accidental 1-meter table drops, and maintain production costs under $25 per unit.",
+            "keyPoints": [
+              "R-TPU Shore Hardness: 85A (tactile friction high, dampens joint micro-shocks)",
+              "R-TPU Unit Manufacturing Cost: $4.50 (additive manufacturing process)",
+              "Grade 5 Titanium Yield Strength: 880 MPa; Unit Cost: $62.00 (CNC milling required)",
+              "Total assembly weight budget: maximum 110g to prevent localized physical fatigue"
+            ],
+            "notes": "Failure to satisfy tactile grip friction or weight limits directly leads to user rejection."
+          },
+          "requiredVocab": [
+            "This choice is explicitly substantiated by...",
+            "In direct alignment with the ergonomic parameters...",
+            "Consequently, the empirical data demonstrates that..."
+          ],
+          "structureRule": "Formulate a 3-part justification: State the selected material decision -> synthesize structural and cost data against user constraints -> logically deduce why the alternative fails to satisfy ergonomic feasibility.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day15-task2",
+          "subject": "Humanities",
+          "subCategory": "Economic History",
+          "commandTerm": "Evaluate",
+          "commandTermDefinition": "Make an appraisal by weighing up the strengths and limitations.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluation of British Inland Waterway Expansion (1760–1830)",
+          "prompt": "Evaluate the extent to which the expansion of private canal networks facilitated industrial modernization in late 18th-century Britain.",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Archival Excerpt: Parliamentary Select Committee Report on Inland Navigation (1798)",
+            "content": "'The construction of the Duke of Bridgewater’s Canal has reduced the freight tariff of coal from Worsley to Manchester by fifty percent, stimulating factory production. However, seasonal freezing in winter and severe droughts in summer repeatedly halt transit for weeks, stranding perishable goods and causing localized industrial stoppages.'",
+            "keyPoints": [
+              "Bulk freight transport tariff reduced by 50% to 70% across textile manufacturing hubs",
+              "Single barge freight capacity (30 tons) surpassed horse-drawn cart limits (1.5 tons)",
+              "High susceptibility to seasonal weather disruptions causing supply chain paralysis",
+              "Speculative over-investment ('Canal Mania') resulted in severe capital misallocation"
+            ],
+            "notes": "Appraisals must balance economic cost efficiencies against structural vulnerabilities."
+          },
+          "requiredVocab": [
+            "While the evidence underscores significant operational strengths, it is equally imperative to consider...",
+            "This dual impact reveals that...",
+            "Ultimately, a nuanced appraisal demonstrates that..."
+          ],
+          "structureRule": "Construct a balanced evaluation: Appraise primary economic strengths using quantitative evidence -> analyze critical operational and structural limitations -> synthesize a definitive judgment on net impact.",
           "bannedWords": [
             "and then",
             "so",
