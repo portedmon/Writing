@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-13T04:08:45.224178+00:00",
-  "totalDays": 15,
+  "lastUpdated": "2026-11-14T04:04:35.639200+00:00",
+  "totalDays": 16,
   "days": [
     {
       "day": 1,
@@ -1366,6 +1366,80 @@
             "Ultimately, a nuanced appraisal demonstrates that..."
           ],
           "structureRule": "Construct a balanced evaluation: Appraise primary economic strengths using quantitative evidence -> analyze critical operational and structural limitations -> synthesize a definitive judgment on net impact.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "date": "2026-11-14",
+      "tasks": [
+        {
+          "id": "day16-task1",
+          "subject": "Humanities",
+          "subCategory": "Colonial Economic History",
+          "commandTerm": "Explain",
+          "commandTermDefinition": "Give a detailed account including reasons or causes.",
+          "targetWordCount": "120-150 words",
+          "title": "Fiscal Policy and Industrial Transformation in Bengal (1815–1835)",
+          "prompt": "Explain how British colonial fiscal policy engineered structural deindustrialization in 19th-century Bengal using the provided archival evidence.",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Excerpt from East India Company Shipping Gazette & Tariff Log (1833)",
+            "content": "The imposition of differential duties on Indian handloom textiles entering British ports (71% ad valorem tariff) compared to British machine-manufactured cotton exports entering India (3.5% tariff) has fundamentally restructured regional production dynamics, triggering an unprecedented influx of Manchester textiles into rural Bengal markets.",
+            "keyPoints": [
+              "71% import tariff levied on Indian handloom textiles entering Great Britain",
+              "3.5% export tariff applied to British industrial cotton goods sold in India",
+              "Catastrophic decline in indigenous artisan employment in Bengal province between 1815 and 1835"
+            ],
+            "notes": "Regulatory tariff mechanisms deliberately prioritized home-country mechanization over colonial domestic manufacturing capacity."
+          },
+          "requiredVocab": [
+            "This is underpinned by the fact that...",
+            "It is crucial to recognize that...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Construct a 3-step causal framework: State the macro-economic shift -> synthesize specific tariff disparities from the archival excerpt -> deduce the systemic socio-economic impact on indigenous textile production.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day16-task2",
+          "subject": "Personal Project",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Discuss",
+          "commandTermDefinition": "Offer a considered and balanced review that includes a range of arguments, factors or hypotheses.",
+          "targetWordCount": "120-150 words",
+          "title": "Ergonomic Optimization in Assistive Design",
+          "prompt": "Discuss the trade-offs between physical dampening stabilization and fatigue mitigation in designing an assistive writing device for secondary students with essential tremor.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Specifications: Modular Ergonomic Writing Utensil (Project Brief 2026-B)",
+            "content": "Developing a modular assistive writing tool designed to stabilize micro-tremors in adolescent users during extended written examinations. User testing identifies a sharp tension between structural mass needed for physical stabilization and the endurance limits of hand musculature during 60-minute testing sessions.",
+            "keyPoints": [
+              "Minimum required device mass for effective passive tremor suppression: 65 grams",
+              "Maximum recommended utensil weight to prevent muscular fatigue over 60 minutes: 35 grams",
+              "Target demographic: Secondary students sitting timed, high-stakes written assessments"
+            ],
+            "notes": "The final prototype must comply with educational assessment accessibility guidelines while utilizing non-hazardous, cost-effective materials."
+          },
+          "requiredVocab": [
+            "On one hand, evidence demonstrates that...",
+            "Conversely, one must account for...",
+            "A balanced solution necessitates..."
+          ],
+          "structureRule": "Construct a balanced review: Evaluate the biomechanical necessity of added mass -> counter-analyze the physical constraints of user muscular fatigue -> synthesize a viable design compromise.",
           "bannedWords": [
             "and then",
             "so",
