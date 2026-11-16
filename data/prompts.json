@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-15T03:50:31.242150+00:00",
-  "totalDays": 17,
+  "lastUpdated": "2026-11-16T03:52:02.110164+00:00",
+  "totalDays": 18,
   "days": [
     {
       "day": 1,
@@ -1519,6 +1519,81 @@
             "so",
             "because",
             "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "date": "2026-11-16",
+      "tasks": [
+        {
+          "id": "day18-task1",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Outline",
+          "commandTermDefinition": "Give a brief summary of the essential features or general principles.",
+          "targetWordCount": "120-150 words",
+          "title": "Ergonomic Principles in Adaptive Assistive Utensils",
+          "prompt": "Outline the key structural and ergonomic design features required for an adaptive tremor-dampening utensil intended for elderly users with Parkinson's disease based on the provided design brief.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief: Adaptive Assistive Utensil (Project Assist-Reach)",
+            "content": "The objective is to engineer a self-stabilizing handle for individuals experiencing mild-to-severe hand tremors (1-5 Hz frequency). The device must accommodate limited grip strength while adhering to medical-grade hygiene standards.",
+            "keyPoints": [
+              "Dynamic counter-weight mechanism required inside handle to dampen high-frequency movement.",
+              "Handle surface must feature textured, high-friction silicone with a minimum diameter of 38mm to reduce muscular load.",
+              "Sub-component sealing must comply with IP67 water-resistance ratings to permit automated dishwasher sterilization."
+            ],
+            "notes": "Target unit production mass must remain under 180 grams to prevent user fatigue."
+          },
+          "requiredVocab": [
+            "Primary structural considerations dictate that...",
+            "This is underpinned by the necessity to...",
+            "Consequently, the essential features encompass..."
+          ],
+          "structureRule": "Formulate a concise outline: State the essential design objectives, list the corresponding structural features linked to user constraints, and summarize the overall functional integration without personal pronouns.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day18-task2",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry",
+          "commandTerm": "To what extent",
+          "commandTermDefinition": "Consider the efficacy or validity of an argument or hypothesis; identify nuances and counter-perspectives.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluating Agricultural Runoff as the Primary Driver of Aquatic Hypoxia",
+          "prompt": "To what extent does increased nitrate concentration from agricultural runoff directly cause aquatic hypoxia in freshwater ecosystems based on the provided experimental log?",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Experimental Log: Aquatic Mesocosm Nitrogen Enrichment Protocol",
+            "content": "A 14-day controlled mesocosm trial evaluated the impact of ammonium nitrate dosing (0 mg/L to 15 mg/L) on dissolved oxygen (DO in mg/L) and chlorophyll-a concentrations in simulated pond environments.",
+            "keyPoints": [
+              "Days 1–7: Nitrate concentration increased from 2.0 mg/L to 12.5 mg/L; Dissolved Oxygen (DO) remained stable at 8.2 mg/L.",
+              "Days 8–11: Chlorophyll-a spiked from 5 µg/L to 64 µg/L; DO rapidly decreased from 8.0 mg/L to 2.1 mg/L (hypoxic threshold).",
+              "Days 12–14: Chlorophyll-a crashed to 11 µg/L; DO stabilized at 1.8 mg/L despite continued high nitrate input (15.0 mg/L)."
+            ],
+            "notes": "Control mesocosm (0 mg/L nitrate) maintained stable DO levels of 8.1–8.4 mg/L throughout the entire 14-day observation window."
+          },
+          "requiredVocab": [
+            "To a considerable extent, the empirical data demonstrates...",
+            "However, this assertion is nuanced by...",
+            "Ultimately, the observed lag phase indicates that..."
+          ],
+          "structureRule": "Construct an evaluative response: Assert the extent of direct causation, analyze the empirical supporting evidence while noting temporal delays between nitrate input and oxygen depletion, address potential intermediate variables (e.g., algal proliferation), and formulate a qualified conclusion.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like",
+            "I think"
           ]
         }
       ]
