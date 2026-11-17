@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-16T03:52:02.110164+00:00",
-  "totalDays": 18,
+  "lastUpdated": "2026-11-17T05:44:23.442383+00:00",
+  "totalDays": 19,
   "days": [
     {
       "day": 1,
@@ -1594,6 +1594,105 @@
             "because",
             "like",
             "I think"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "date": "2026-11-17",
+      "tasks": [
+        {
+          "id": "day19-task1",
+          "subject": "Humanities",
+          "subCategory": "Economic History",
+          "commandTerm": "Analyze",
+          "commandTermDefinition": "Break down in order to bring out the essential elements or structure. (To identify parts and relationships, interpret patterns, and reach conclusions).",
+          "targetWordCount": "120-150 words",
+          "title": "Analyzing Imperial Railway Infrastructure in British India (1877)",
+          "prompt": "Analyze how colonial infrastructure development prioritized export-oriented extraction over domestic famine relief, synthesizing official administrative dispatches and rail freight policies.",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Dispatch from Lord Lytton & Great Indian Peninsula Railway Tariff Records (1877)",
+            "content": "\"The primary objective of the central rail artery is to expedite the transport of raw cotton to the coast for shipment to Manchester, while maintaining minimal tariffs for imported British manufactures. Internal food grain movement during regional scarcities must remain subordinate to commercial contracts.\"",
+            "keyPoints": [
+              "Freight tariffs for export raw cotton were reduced by 40% between agrarian interiors and port terminals.",
+              "Emergency grain transport during the 1876–1878 Great Famine incurred standard high-distance rates, delaying relief distribution.",
+              "Agrarian export revenue increased by 28% alongside severe regional mortality spikes."
+            ],
+            "notes": "Imperial trade policy prioritized imperial fiscal obligations over local humanitarian resource management."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This structural disparity is underpinned by...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Construct a 3-step analytical framework: Deconstruct institutional motives -> contextualize economic freight disparities -> evaluate systemic socio-economic consequences.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day19-task2",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry",
+          "commandTerm": "Justify",
+          "commandTermDefinition": "Give valid reasons or evidence to support an answer or conclusion.",
+          "targetWordCount": "120-150 words",
+          "title": "Justifying Catalyst Selection in Industrial Wastewater Remediation",
+          "prompt": "Justify the selection of Catalyst B over Catalysts A and C for optimizing industrial wastewater remediation under dynamic temperature conditions.",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Experimental Protocol Log: Kinetic Studies & Catalyst Durability",
+            "content": "Triplicate runs were conducted across variable temperature ranges (298 K–343 K) to evaluate pollutant degradation rate constants (k) and catalyst stability under acidic conditions (pH 3.5).",
+            "headers": [
+              "Catalyst Variant",
+              "Activation Energy (Ea, kJ/mol)",
+              "Rate Constant (k, min⁻¹ at 318K)",
+              "Structural Degradation (50 Cycles)"
+            ],
+            "rows": [
+              [
+                "Catalyst A (Fe-TiO2)",
+                "54.2",
+                "0.045",
+                "12.4% mass loss (High leaching)"
+              ],
+              [
+                "Catalyst B (Cu-TiO2/Graphene)",
+                "28.6",
+                "0.182",
+                "0.8% mass loss (Negligible leaching)"
+              ],
+              [
+                "Catalyst C (Pt/Al2O3)",
+                "22.1",
+                "0.210",
+                "45.0% metal loss (Prohibitive degradation)"
+              ]
+            ],
+            "keyPoints": [
+              "Catalyst B exhibits a significantly lower activation energy than Catalyst A while maintaining structural integrity.",
+              "Catalyst C offers a marginally higher rate constant but suffers severe metal leaching, introducing secondary toxic waste."
+            ],
+            "notes": "Environmental compliance guidelines restrict metal leaching to less than 2.0% mass loss across 40 continuous reaction cycles."
+          },
+          "requiredVocab": [
+            "The empirical data demonstrates that...",
+            "This selection is substantiated by...",
+            "From an operational perspective, it follows that..."
+          ],
+          "structureRule": "Construct a 3-step justification argument: Formulate the optimal choice -> synthesize comparative kinetic and durability evidence -> demonstrate alignment with regulatory constraints.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
           ]
         }
       ]
