@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-17T05:44:23.442383+00:00",
-  "totalDays": 19,
+  "lastUpdated": "2026-11-18T05:10:17.298668+00:00",
+  "totalDays": 20,
   "days": [
     {
       "day": 1,
@@ -1688,6 +1688,79 @@
             "From an operational perspective, it follows that..."
           ],
           "structureRule": "Construct a 3-step justification argument: Formulate the optimal choice -> synthesize comparative kinetic and durability evidence -> demonstrate alignment with regulatory constraints.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "date": "2026-11-18",
+      "tasks": [
+        {
+          "id": "day20-task1",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry",
+          "commandTerm": "Evaluate",
+          "commandTermDefinition": "Make an appraisal by weighing up the strengths and limitations.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluation of Water Purification Protocol Efficacy",
+          "prompt": "Evaluate the effectiveness and viability of Protocol B compared to Protocol A for emergency field water decontamination based on the provided experimental log.",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Comparative Efficacy Log: Emergency Water Decontamination Field Protocols",
+            "content": "Trial runs were conducted under tropical field conditions (32°C, high turbidity). Protocol A utilizes solar disinfection (SODIS) with PET bottles; Protocol B employs rapid coagulation via Moringa oleifera seed powder combined with vacuum filtration.",
+            "keyPoints": [
+              "Protocol A: 99.1% bacterial reduction over 6 hours; zero capital cost; limited to clear water (<30 NTU).",
+              "Protocol B: 99.8% bacterial reduction in 15 minutes; reduces turbidity from 250 NTU to 4 NTU; requires mechanical filtration apparatus and fresh biological coagulant supply."
+            ],
+            "notes": "Regulatory threshold for safe emergency drinking water requires <5 NTU turbidity and >99.5% pathogen removal within a 1-hour operational window."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This is underpinned by the fact that...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Execute a 3-part evaluation: Identify empirical strengths and limitations of both protocols -> contextualize performance against regulatory emergency thresholds -> synthesize an evidence-backed final appraisal.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day20-task2",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Explain",
+          "commandTermDefinition": "Give a detailed account including reasons or causes.",
+          "targetWordCount": "120-150 words",
+          "title": "Explanation of Ergonomic Interface Adjustments for Mobility Devices",
+          "prompt": "Explain how the integration of tactile haptic feedback and broadened grip geometry addresses specific user constraints identified in the design brief.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief: Ergonomic Handle Redesign for Mobility-Impaired Users",
+            "content": "Target end-users exhibit reduced maximum grip force (15-25 N, compared to 80 N standard) and peripheral neuropathy. Current rigid handles induce localized pressure necrosis and high slippage rates during prolonged maneuvering.",
+            "keyPoints": [
+              "Constraint 1: User force capacity is capped at 20 N before muscular fatigue ensues.",
+              "Constraint 2: Impaired tactile sensitivity leads to user over-gripping or dropping control interfaces.",
+              "Requirement: Handle geometry must distribute palm load over an area exceeding 45 cm² and provide tactile feedback cues."
+            ],
+            "notes": "Design modifications must strictly comply with ISO 9241 physical ergonomics standards for human-system interaction."
+          },
+          "requiredVocab": [
+            "This phenomenon stems directly from...",
+            "A primary driver of this requirement is...",
+            "As a direct result of these parametric constraints..."
+          ],
+          "structureRule": "Construct a causal explanation: Identify the specific functional design feature -> link the feature directly to user biometric constraints -> explain the biomechanical mechanism yielding enhanced utility.",
           "bannedWords": [
             "and then",
             "so",
