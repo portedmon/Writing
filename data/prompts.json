@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-20T04:54:06.938112+00:00",
-  "totalDays": 21,
+  "lastUpdated": "2026-11-21T04:49:30.167201+00:00",
+  "totalDays": 22,
   "days": [
     {
       "day": 1,
@@ -1834,6 +1834,80 @@
             "To secure long-term macroeconomic stability,..."
           ],
           "structureRule": "Formulate a 3-part policy synthesis: State core monetary intervention -> articulate structural supply-chain realignments -> establish regulatory benchmarks for long-term recovery.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "date": "2026-11-21",
+      "tasks": [
+        {
+          "id": "day22-task1",
+          "subject": "Humanities",
+          "subCategory": "Imperial Economic History",
+          "commandTerm": "Describe",
+          "commandTermDefinition": "Give a detailed account or picture of a situation, event, pattern or process.",
+          "targetWordCount": "120-150 words",
+          "title": "Administrative Mechanisms of Silk Road Trade Regulation",
+          "prompt": "Describe the administrative mechanisms utilized by Tang Dynasty border officials to regulate commercial flows and enforce state fiscal authority based on the provided archival register.",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Archival Record: Tang Dynasty Frontier Customs Register (Turpan Excerpts, c. 713 CE)",
+            "content": "Passports (Guansuo) issued at Dunhuang stipulate that foreign merchants entering Chaganiyan must declare all raw silk yarn, damask weaves, and silver bullion prior to crossing the oasis boundary. Unregistered merchandise was subjected to immediate state confiscation alongside a punitive levy of thirty percent on remaining dry goods. Imperial bureaucracy mandated strict weights-and-measures verification using standardized state-issued bronze balances.",
+            "keyPoints": [
+              "Mandatory pre-entry declaration of high-value trade goods (silk yarn, damask, silver bullion)",
+              "Punitive measures including complete confiscation and a 30% tariff on unregistered items",
+              "Standardized weight verification using imperial bronze balances"
+            ],
+            "notes": "Demonstrates central state control over trans-Eurasian trade routes through rigorous bureaucratic protocols."
+          },
+          "requiredVocab": [
+            "It is crucial to recognize that...",
+            "This is underpinned by the fact that...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Construct a 3-step analytical narrative: State the regulatory objective -> describe the specific procedural enforcement methods cited in the source -> explain how these practices maintained imperial fiscal control.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day22-task2",
+          "subject": "Personal Project",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Outline",
+          "commandTermDefinition": "Give a brief summary of the essential features or general principles.",
+          "targetWordCount": "120-150 words",
+          "title": "Specification Summary for Assistive Input Devices",
+          "prompt": "Outline the key ergonomic features and technical constraints required to develop an effective assistive keyboard interface for users with motor impairments.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Specification Brief: Ergonomic Adaptive Interface",
+            "content": "The target persona requires a desktop typing interface configured for severe wrist tremors and restricted muscular force. Key actuation must trigger under 0.3 Newtons of applied force while incorporating a tactile feedback threshold to minimize erroneous activations. The frame requires modular mounting points to support custom 3D-printed keycap extensions without sacrificing mechanical stability.",
+            "keyPoints": [
+              "Low actuation force threshold capped strictly at 0.3 Newtons",
+              "Tactile resistance mechanism to prevent accidental activations from tremors",
+              "Modular architecture for custom 3D-printed anatomical keycaps"
+            ],
+            "notes": "Design criteria must align with ISO 9241-410 accessibility guidelines for hardware input devices."
+          },
+          "requiredVocab": [
+            "A primary objective involves...",
+            "To address this constraint...",
+            "The core principle dictating..."
+          ],
+          "structureRule": "Execute a 3-part outline framework: Summarize the primary physical constraints -> summarize the corresponding mechanical specifications -> summarize the structural customization requirements.",
           "bannedWords": [
             "and then",
             "so",
