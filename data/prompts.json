@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-21T04:49:30.167201+00:00",
-  "totalDays": 22,
+  "lastUpdated": "2026-11-22T04:04:49.569213+00:00",
+  "totalDays": 23,
   "days": [
     {
       "day": 1,
@@ -1908,6 +1908,80 @@
             "The core principle dictating..."
           ],
           "structureRule": "Execute a 3-part outline framework: Summarize the primary physical constraints -> summarize the corresponding mechanical specifications -> summarize the structural customization requirements.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "date": "2026-11-22",
+      "tasks": [
+        {
+          "id": "day23-task1",
+          "subject": "Sciences",
+          "subCategory": "Environmental Ecotoxicology",
+          "commandTerm": "To what extent",
+          "commandTermDefinition": "Consider the efficacy or validity of an argument or hypothesis; identify nuances and counter-perspectives.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluating Chitosan Bio-Sorption Viability in Heavy Metal Remediation",
+          "prompt": "To what extent can chitosan bio-sorption be implemented as a primary method for industrial heavy metal wastewater treatment, given its documented pH sensitivity?",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Experimental Log 04: Kinetic Response and Protonation Anomalies in Chitosan Bio-Sorption",
+            "content": "Trial 04 recorded a sharp 84% reduction in Lead (Pb2+) bio-sorption efficiency when effluent pH decreased from 6.5 to 3.8, despite maintaining constant agitational velocity (200 rpm). Fourier-transform infrared (FTIR) spectroscopy confirmed competitive protonation of primary amino groups (-NH2 into -NH3+).",
+            "keyPoints": [
+              "Maximum sorption capacity reaches 88.4 mg/g at pH 6.2–6.8.",
+              "Protonation at pH < 4.0 generates severe electrostatic repulsion against divalent metal ions.",
+              "Desorption rate escalates rapidly under acidic stress, re-releasing sequestered toxins."
+            ],
+            "notes": "Industrial runoff regulatory baseline mandates lead concentrations below 0.05 mg/L."
+          },
+          "requiredVocab": [
+            "While it is evident that...",
+            "This limitation is underpinned by the fact that...",
+            "Consequently, its deployment must be contingent upon..."
+          ],
+          "structureRule": "Construct a 3-step evaluation: Validate baseline remediation efficacy -> analyze protonation constraints identified in experimental anomalies -> formulate a qualified operational boundary condition.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day23-task2",
+          "subject": "Personal Project",
+          "subCategory": "Ergonomic Assistive Design",
+          "commandTerm": "Analyze",
+          "commandTermDefinition": "Break down in order to bring out the essential elements or structure. (To identify parts and relationships, interpret patterns, and reach conclusions).",
+          "targetWordCount": "120-150 words",
+          "title": "Mechanical Trade-Offs in Assistive Interface Design",
+          "prompt": "Analyze the structural relationship between actuation force thresholds, sensory tactile feedback, and typing error rates in designing adaptive keyboards for rheumatoid arthritis patients.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief & User Persona: Adaptive Mechanical Keyboard (Project Micro-Motion)",
+            "content": "Target user profile comprises individuals with severe rheumatoid arthritis in distal interphalangeal joints. Primary design imperative: Eliminate joint strain while preventing unintended key actuation caused by resting hand weight or involuntary tremors.",
+            "keyPoints": [
+              "Standard mechanical switches require 50–60g actuation force; target threshold is < 20g.",
+              "Tactile actuation feedback delay exceeding 15ms increases user error rates by 34%.",
+              "Excessively light force switches (< 15g) without elevated tactile humps cause a 42% spike in accidental key depressions."
+            ],
+            "notes": "Must comply with ISO 9241-410 ergonomic standards for computer input devices."
+          },
+          "requiredVocab": [
+            "A rigorous examination reveals that...",
+            "This relationship is demonstrated by...",
+            "It is imperative to balance..."
+          ],
+          "structureRule": "Construct a 3-part analytical sequence: Identify the conflict between low resistance and accidental actuation -> examine how feedback mechanisms mitigate user strain -> deduce optimal hardware specifications based on persona constraints.",
           "bannedWords": [
             "and then",
             "so",
