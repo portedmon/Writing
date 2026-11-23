@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-22T04:04:49.569213+00:00",
-  "totalDays": 23,
+  "lastUpdated": "2026-11-23T04:46:50.661029+00:00",
+  "totalDays": 24,
   "days": [
     {
       "day": 1,
@@ -1987,6 +1987,82 @@
             "so",
             "because",
             "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "date": "2026-11-23",
+      "tasks": [
+        {
+          "id": "day24-task1",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Justify",
+          "commandTermDefinition": "Give valid reasons or evidence to support an answer or conclusion.",
+          "targetWordCount": "120-150 words",
+          "title": "Justification of Material and Mechanism Selection for Assistive Workstations",
+          "prompt": "Justify the selection of anodized aluminum frames combined with pneumatic height-adjustment mechanisms over molded polypropylene for an ergonomic workplace desk intended for wheelchair-bound desk workers.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Client Requirement Specifications: Inclusive Workplace Furniture",
+            "content": "The user persona involves adult office workers using manual and motorized wheelchairs requiring customized desk clearance (650mm–880mm) and high structural stability (tensile strain tolerance > 200 MPa). Polypropylene units demonstrate sagging under continuous asymmetrical loads exceeding 45 kg, while anodized aluminum structural frames maintain axial rigidity under up to 150 kg static load.",
+            "keyPoints": [
+              "Wheelchair armrest clearance requirements: 650–880 mm vertical dynamic range.",
+              "Material load-bearing thresholds: Anodized aluminum 6061-T6 tensile strength = 310 MPa vs. Molded Polypropylene tensile strength = 35 MPa.",
+              "Lifecycle and maintenance constraint: Pneumatic actuators provide 50,000 continuous cycle stability without structural deformation."
+            ],
+            "notes": "The design solution must comply with ISO 9241-5 ergonomic requirements for office work with visual display terminals."
+          },
+          "requiredVocab": [
+            "This selection is underpinned by the fact that...",
+            "It is crucial to recognize that...",
+            "Consequently, structural integrity is optimized through..."
+          ],
+          "structureRule": "Construct a 3-step validation framework: Explicitly state the material design choice -> synthesize comparative mechanical metrics from the brief -> deduce the systemic user benefit compliant with ISO 9241-5.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day24-task2",
+          "subject": "Sciences",
+          "subCategory": "Biochemistry / Enzyme Kinetics",
+          "commandTerm": "Evaluate",
+          "commandTermDefinition": "Make an appraisal by weighing up the strengths and limitations.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluation of Spectrophotometric Assay Protocols for Catalase Activity",
+          "prompt": "Evaluate the reliability and validity of using a spectrophotometric assay at 240 nm versus a gas-volume displacement setup to quantify catalase activity under varying pH conditions.",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Lab Protocol Excerpt & Anomaly Log: Catalase Kinetics under Acidic/Basic Stress",
+            "content": "Spectrophotometric measurement tracking H2O2 absorbance decay at 240 nm yielded precision with a standard deviation of ±0.02 AU, but suffered signal interference under pH < 4.0 due to enzyme precipitation scattering light. Gas displacement via water bath measuring oxygen volume generation eliminated turbidity artifacts but exhibited a 1.5-second time lag in dynamic data recording.",
+            "keyPoints": [
+              "Spectrophotometry (240 nm): High temporal resolution (0.1 s intervals), high precision (SD ±0.02 AU), severe limitation from protein precipitation light-scattering at pH < 4.0.",
+              "Gas Volume Displacement: Immune to solution turbidity/precipitation, low precision due to meniscus reading error (±0.5 mL) and time-lag response."
+            ],
+            "notes": "Target variable: Initial reaction rate (V0) across pH range 2.0 to 10.0."
+          },
+          "requiredVocab": [
+            "A rigorous analysis reveals that...",
+            "Notwithstanding the limitation regarding...",
+            "From an analytical standpoint, the methodology exhibits..."
+          ],
+          "structureRule": "Synthesize an evaluation balance: Assess method precision and temporal resolution -> contrast limitations regarding turbidity and measurement lag -> deliver a definitive verdict on overall validity for initial velocity calculation.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like",
+            "I think",
+            "good",
+            "bad"
           ]
         }
       ]
