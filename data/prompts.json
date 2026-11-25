@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-23T04:46:50.661029+00:00",
-  "totalDays": 24,
+  "lastUpdated": "2026-11-25T06:06:34.052459+00:00",
+  "totalDays": 25,
   "days": [
     {
       "day": 1,
@@ -2063,6 +2063,80 @@
             "I think",
             "good",
             "bad"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "date": "2026-11-25",
+      "tasks": [
+        {
+          "id": "day25-task1",
+          "subject": "Humanities",
+          "subCategory": "Economic History & Structural Geography",
+          "commandTerm": "Explain",
+          "commandTermDefinition": "Give a detailed account including reasons or causes.",
+          "targetWordCount": "120-150 words",
+          "title": "Socioeconomic Drivers of Rural-Urban Migration during the British Industrial Revolution",
+          "prompt": "Explain the primary structural drivers forcing agrarian labor displacement into urban industrial centers using the parliamentary testimony and economic data provided.",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Archival Excerpt: Parliamentary Enclosure Committee Report (1798)",
+            "content": "\"By the enclosing of open fields and common pastures, small freeholders are deprived of customary grazing rights, rendering traditional subsistence farming economically unviable. Consequently, displaced agrarian families must migrate to manufacturing districts to secure wage-based subsistence.\"",
+            "keyPoints": [
+              "Customary common pasture rights eliminated by parliamentary decree.",
+              "Agrarian land consolidation increased landholding profitability for capital owners by 38%.",
+              "Urban textile mill labor pool increased by 210% between 1780 and 1810."
+            ],
+            "notes": "Analysis must focus on structural economic push-factors rather than individual voluntary choice."
+          },
+          "requiredVocab": [
+            "This phenomenon is fundamentally underpinned by...",
+            "It is imperative to recognize that...",
+            "Consequently, this structural shift catalyzed..."
+          ],
+          "structureRule": "Construct a 3-step causal chain: (1) Identify state-sanctioned land privatization policy, (2) Explain the economic displacement of smallholders using textual evidence, and (3) Deduce the resulting structural shift toward urban industrial labor forces.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day25-task2",
+          "subject": "Sciences",
+          "subCategory": "Environmental Chemistry & Ecotoxicology",
+          "commandTerm": "Discuss",
+          "commandTermDefinition": "Offer a considered and balanced review that includes a range of arguments, factors or hypotheses.",
+          "targetWordCount": "120-150 words",
+          "title": "Efficacy versus Ecological Risk in Chemical Wastewater Remediation",
+          "prompt": "Discuss the trade-offs between rapid heavy-metal precipitation efficiency and long-term aquatic toxicity risks associated with synthetic flocculants based on the trial log.",
+          "stimulus": {
+            "type": "experiment_log",
+            "title": "Experimental Protocol Log: Polyacrylamide (PAM) Remediation Trial 4B",
+            "content": "Trial 4B evaluated high-molecular-weight anionic polyacrylamide (PAM) at 15 mg/L in industrial runoff. Heavy metal (Pb²⁺, Cd²⁺) removal reached 98.4% efficiency within 12 minutes. However, post-treatment bioassays revealed a 42% mortality rate in Daphnia magna populations over 48 hours.",
+            "keyPoints": [
+              "Target contaminant clearance rate achieved 98.4% efficiency.",
+              "Residual monomer concentrations measured at 0.08 mg/L (exceeding regulatory baseline of 0.05 mg/L).",
+              "Significant acute toxicity observed in downstream non-target indicator species."
+            ],
+            "notes": "Evaluate both immediate operational effectiveness and broader ecotoxicological compliance."
+          },
+          "requiredVocab": [
+            "While empirical data demonstrates...",
+            "Conversely, significant risks emerge regarding...",
+            "A nuanced evaluation reveals that..."
+          ],
+          "structureRule": "Follow a balanced comparative structure: State technical remediation benefits supported by quantitative metrics -> Present secondary ecotoxicological risks -> Formulate a synthesized evaluation regarding overall regulatory and ecological viability.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like"
           ]
         }
       ]
