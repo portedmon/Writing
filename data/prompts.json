@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-26T06:00:29.688769+00:00",
-  "totalDays": 26,
+  "lastUpdated": "2026-11-27T05:53:19.856593+00:00",
+  "totalDays": 27,
   "days": [
     {
       "day": 1,
@@ -2213,6 +2213,83 @@
             "so",
             "because",
             "like"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "date": "2026-11-27",
+      "tasks": [
+        {
+          "id": "day27-task1",
+          "subject": "Design",
+          "subCategory": "Ergonomic Product Design",
+          "commandTerm": "Outline",
+          "commandTermDefinition": "Give a brief summary of the essential features or general principles.",
+          "targetWordCount": "120-150 words",
+          "title": "Outline of Ergonomic Specifications for Adaptive Kitchen Utensils",
+          "prompt": "Outline the essential ergonomic features and structural parameters required to mitigate hand fatigue and joint stress in adaptive kitchen utensils based on the provided design brief.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Inclusive Design Brief: Project Dexterity (Adaptive Kitchenware)",
+            "content": "Target users present with moderate-to-severe rheumatoid arthritis, resulting in a 40% reduction in grip force and elevated joint inflammation during metacarpophalangeal flexion. Standard cutlery requires acute pinch force, triggering physical strain and thermal discomfort during meal preparation.",
+            "keyPoints": [
+              "Handle diameter must be increased from a standard 12mm to 35mm using high-friction thermoplastic elastomer (TPE).",
+              "Total mass must not exceed 65g, incorporating hollowed aluminum cores to reduce the moment of inertia.",
+              "Surface texture requires micro-contoured ribbing to eliminate high pinch-force requirements."
+            ],
+            "notes": "All parameters must align with ISO 9241-920 ergonomic standards for manual control interfaces."
+          },
+          "requiredVocab": [
+            "It is imperative to recognize that...",
+            "This structural modification is underpinned by...",
+            "Consequently, the design intervention serves to..."
+          ],
+          "structureRule": "Construct a 3-part design summary: Identify core user anatomical limitations -> outline specified material and structural parameters -> deduce how these parameters systematically alleviate physical strain.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day27-task2",
+          "subject": "Humanities",
+          "subCategory": "Economic History",
+          "commandTerm": "To what extent",
+          "commandTermDefinition": "Consider the efficacy or validity of an argument or hypothesis; identify nuances and counter-perspectives.",
+          "targetWordCount": "120-150 words",
+          "title": "Evaluation of Socioeconomic Mobility in Early Industrial Britain",
+          "prompt": "To what extent did the rapid growth of urban manufacturing in early 19th-century Britain promote upward socioeconomic mobility for the working class?",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Parliamentary Select Committee Report on Factory Labor (1833)",
+            "content": "\"The continuous labor of twelve to fourteen hours per day leaves no opportunity for moral or intellectual instruction among youthful operatives. Wages, though nominally higher than agricultural piece-work, are substantially absorbed by inflated urban rents and truck-system company stores, binding families in perpetual debt.\"",
+            "keyPoints": [
+              "Nominal wage increases in urban factories were offset by exorbitant living costs and forced company-store purchasing.",
+              "Excessive daily labor hours (12–14 hours) systematically precluded access to literacy and technical education.",
+              "Long-term physical debilitation from hazardous workplace conditions impaired sustained earning potential."
+            ],
+            "notes": " Sadler Committee testimony on industrial working-class conditions in northern manufacturing hubs."
+          },
+          "requiredVocab": [
+            "While evidence suggests that...",
+            "Conversely, a critical examination reveals...",
+            "Thus, it can be argued that..."
+          ],
+          "structureRule": "Formulate a nuanced argument: Acknowledge the superficial benefit (nominal wage gains) -> counter-analyze using structural factors from the primary source (debt traps, educational deprivation) -> deliver a weighted conclusion on overall extent.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like",
+            "I think",
+            "bad",
+            "good"
           ]
         }
       ]
