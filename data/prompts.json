@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-27T05:53:19.856593+00:00",
-  "totalDays": 27,
+  "lastUpdated": "2026-11-28T05:32:18.358346+00:00",
+  "totalDays": 28,
   "days": [
     {
       "day": 1,
@@ -2289,6 +2289,82 @@
             "like",
             "I think",
             "bad",
+            "good"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "date": "2026-11-28",
+      "tasks": [
+        {
+          "id": "day28-task1",
+          "subject": "Humanities",
+          "subCategory": "Urban Resource Management & Economic Policy",
+          "commandTerm": "Analyze",
+          "commandTermDefinition": "Break down in order to bring out the essential elements or structure. (To identify parts and relationships, interpret patterns, and reach conclusions).",
+          "targetWordCount": "120-150 words",
+          "title": "Analysis of Archival Water Management Directives in Post-Industrial Manchester",
+          "prompt": "Analyze how municipal regulatory policies prioritized industrial throughput over public health during the 1840s textile expansion using the provided archival excerpt.",
+          "stimulus": {
+            "type": "primary_source",
+            "title": "Excerpt from Manchester Public Health Committee Hearing (1844)",
+            "content": "\"The diversion of the Irwell river bed to accommodate dye-works waste remains indispensable for sustaining export velocity. While local well-contamination has escalated by 40%, curtailing factory effluents would imperil the regional employment fabric. Drainage mandates shall thus be deferred until revenue benchmarks are satisfied.\"",
+            "keyPoints": [
+              "Economic priority placed on export velocity over clean water access",
+              "40% increase in municipal well-contamination acknowledged by inspectors",
+              "Sanitation enforcement explicitly deferred pending fiscal benchmark attainment"
+            ],
+            "notes": "Historical Context: Early Victorian industrial expansion operated under minimal statutory environmental regulation."
+          },
+          "requiredVocab": [
+            "This imperative is evidenced by...",
+            "It is crucial to recognize that...",
+            "Consequently, it becomes clear that..."
+          ],
+          "structureRule": "Construct a 3-step analytical framework: Identify the primary economic priority in the source -> interpret the systemic structural trade-off -> deduce how statutory policy systematically subordinated public health to capital accumulation.",
+          "bannedWords": [
+            "I think",
+            "In my opinion",
+            "because",
+            "bad",
+            "good",
+            "so"
+          ]
+        },
+        {
+          "id": "day28-task2",
+          "subject": "Personal Project",
+          "subCategory": "Ergonomic Product Design & Inclusive Technology",
+          "commandTerm": "Justify",
+          "commandTermDefinition": "Give valid reasons or evidence to support an answer or conclusion.",
+          "targetWordCount": "120-150 words",
+          "title": "Justification of Material Selection for Assistive Keyboards",
+          "prompt": "Justify the selection of recycled thermoplastic polyurethane (rTPU) over milled aluminum alloy for an assistive tactile keyboard targeting elderly users with severe joint inflammation.",
+          "stimulus": {
+            "type": "design_brief",
+            "title": "Design Brief Specification Matrix (Criterion B: Developing Ideas)",
+            "content": "Target User Persona: Elderly individuals (aged 65+) experiencing tactile sensitivity loss and joint degradation. Constraints: Overall device mass must remain under 350 grams; production cost limit is $15 per unit; tactile slip coefficient must exceed 0.6.",
+            "keyPoints": [
+              "rTPU Shore 85A durometer rating attenuates impact force during actuation",
+              "Unit manufacturing cost of rTPU is 62% lower than CNC-milled aluminum",
+              "High friction coefficient of rTPU eliminates key-slippage without secondary coating"
+            ],
+            "notes": "Compliance Mandate: Device must satisfy ISO 9241-410 ergonomic criteria for physical input devices."
+          },
+          "requiredVocab": [
+            "The validity of this selection is substantiated by...",
+            "This decision directly addresses...",
+            "Underpinned by empirical constraints, it is evident that..."
+          ],
+          "structureRule": "Follow a 3-part justification format: State the material selection -> evaluate material physical properties against specific user ergonomic constraints -> validate overall cost-to-benefit feasibility without using personal pronouns.",
+          "bannedWords": [
+            "and then",
+            "so",
+            "because",
+            "like",
+            "I think",
             "good"
           ]
         }
